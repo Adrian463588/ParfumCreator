@@ -1,0 +1,132 @@
+[
+  {
+    "id": "perfume-basics",
+    "topic": "dasar parfum dan bahan fragrance",
+    "keywords": ["apa itu parfum", "dasar parfum", "fragrance composition", "bahan wangi", "pelarut"],
+    "answer": "Parfum adalah komposisi bahan beraroma yang biasanya dilarutkan dalam media seperti alkohol atau pelarut lain, lalu dievaluasi sebagai produk wangi. Hasil akhirnya dipengaruhi oleh identitas bahan, proporsi, pelarut, kemasan, dan proses evaluasi; kata natural, sintetis, atau mahal saja tidak cukup untuk memprediksi keamanan maupun kualitas.",
+    "caution": "Penjelasan ini bersifat pengantar. Formula untuk kulit tetap memerlukan identitas bahan, dokumen pemasok, kategori penggunaan, dan penilaian keamanan yang sesuai.",
+    "sourceName": "IFF — How Perfume Is Made",
+    "sourceUrl": "https://www.iff.com/media/stories/how-perfume-made/",
+    "retrievedAt": "2026-08-25"
+  },
+  {
+    "id": "concentration-labels-ifra",
+    "topic": "jenis dan konsentrasi parfum",
+    "keywords": ["jenis parfum", "konsentrasi", "edc", "edt", "edp", "extrait", "cologne", "parfum"],
+    "answer": "IFRA menjelaskan bahwa istilah Cologne, Eau de Toilette, Eau de Parfum, dan Extrait adalah deskriptor umum, bukan definisi internasional yang kaku. Rentang praktik umum untuk parfum berbasis etanol adalah EdC 3–8%, EdT 5–15%, EdP 10–20%, dan Extrait 15–40%. Rentang ini adalah titik awal formulasi; tiap produk dapat memakai formula dan karakter yang berbeda.",
+    "caution": "Konsentrasi tidak menjamin lama pakai, sillage, atau keamanan. Validasi bahan, produk akhir, dan penggunaan yang dimaksud secara terpisah.",
+    "sourceName": "IFRA — Using the Standards",
+    "sourceUrl": "https://ifrafragrance.org/using-the-standards",
+    "retrievedAt": "2026-08-25"
+  },
+  {
+    "id": "fragrance-families",
+    "topic": "keluarga aroma parfum",
+    "keywords": ["family", "keluarga aroma", "citrus", "floral", "woody", "fougere", "chypre", "gourmand", "fresh", "oriental"],
+    "answer": "Keluarga aroma adalah sistem klasifikasi untuk mengelompokkan karakter dominan parfum. Keluarga yang umum dipakai mencakup Fresh, Floral, Ambrée/Oriental, Gourmand, Chypre, Woody, dan Fougère; sistem lain dapat memakai subkeluarga yang berbeda. Satu parfum dapat melintasi lebih dari satu keluarga, sehingga label family di katalog adalah petunjuk, bukan pengukuran objektif.",
+    "caution": "Klasifikasi bisa berbeda antar evaluator dan katalog. Gunakan metadata produk bersama note dan evaluasi blotter atau kulit.",
+    "sourceName": "The Perfume Society — Fragrance Families",
+    "sourceUrl": "https://perfumesociety.org/discover-perfume/an-introduction/fragrance-families/",
+    "retrievedAt": "2026-08-25"
+  },
+  {
+    "id": "top-heart-base-notes",
+    "topic": "top heart base notes",
+    "keywords": ["top note", "middle note", "heart note", "base note", "piramida aroma", "note parfum"],
+    "answer": "Top, Heart/Middle, dan Base adalah model kerja untuk menjelaskan perubahan persepsi aroma setelah aplikasi. Top menggambarkan kesan awal yang lebih volatil, Heart menggambarkan karakter utama yang menjembatani komposisi, dan Base menggambarkan material yang lebih menetap. Pembagian ini membantu menyusun formula, tetapi tidak menentukan perilaku setiap bahan secara mutlak.",
+    "caution": "NoteType pada dataset ParfumCreator adalah metadata formulasi; bukan hasil pengukuran volatilitas pada setiap batch.",
+    "sourceName": "IFSCC — Beginning Cosmetic Chemistry",
+    "sourceUrl": "https://ifscc.org/wp-content/uploads/2018/05/Basic-of-Cosmetic-Chemistry-Chapters-18-through-20.pdf",
+    "retrievedAt": "2026-08-25"
+  },
+  {
+    "id": "ifra-purpose-and-limits",
+    "topic": "IFRA dan batas bahan parfum",
+    "keywords": ["ifra", "batas ifra", "restricted", "prohibited", "specification", "kategori penggunaan", "safety"],
+    "answer": "IFRA Standards adalah sistem risk management industri yang dapat melarang, membatasi, atau menetapkan spesifikasi untuk material tertentu. Batas yang relevan bergantung pada kategori penggunaan produk akhir dan komposisi bahan, bukan hanya nama bahan. Untuk essential oil atau Natural Complex Substance, kontribusi constituent dan data pemasok dapat diperlukan.",
+    "caution": "Kolom ifraLimit lokal tidak boleh dianggap sebagai sertifikat. Cek IFRA Standard terbaru, kategori penggunaan, SDS, dan dokumen pemasok sebelum pemakaian atau penjualan.",
+    "sourceName": "IFRA — Understanding the Standards",
+    "sourceUrl": "https://ifrafragrance.org/understanding-standards",
+    "retrievedAt": "2026-08-25"
+  },
+  {
+    "id": "ifra-natural-complex-substances",
+    "topic": "essential oil dan Natural Complex Substance",
+    "keywords": ["essential oil", "minyak atsiri", "ncs", "natural complex substance", "constituent", "supplier data"],
+    "answer": "IFRA memperlakukan essential oil sebagai Natural Complex Substance yang dapat mengandung constituent dengan standar tersendiri. Penilaian penggunaan perlu menghubungkan NCS dengan constituent terkait dan mempertimbangkan data analitik atau data pemasok bila tersedia.",
+    "caution": "Jangan menyimpulkan essential oil aman hanya karena berlabel natural atau karena tidak ada angka lokal. Identitas, kualitas, oksidasi, dan kategori produk tetap harus diperiksa.",
+    "sourceName": "IFRA — Using the Standards",
+    "sourceUrl": "https://ifrafragrance.org/using-the-standards",
+    "retrievedAt": "2026-08-25"
+  },
+  {
+    "id": "cosing-scope",
+    "topic": "INCI dan database CosIng",
+    "keywords": ["cosing", "inci", "cosmetic ingredient", "nama bahan", "regulasi eropa", "european commission"],
+    "answer": "CosIng adalah database Komisi Eropa untuk informasi zat dan bahan kosmetik, termasuk nama umum untuk pelabelan dan pencarian CAS. Keberadaan nama bahan di inventaris CosIng tidak otomatis berarti bahan tersebut disetujui untuk semua penggunaan kosmetik.",
+    "caution": "CosIng bersifat informatif dan tidak memiliki kekuatan hukum sendiri; Regulation (EC) No 1223/2009 dan lampirannya, serta penilaian keamanan produk, tetap menjadi rujukan regulasi.",
+    "sourceName": "European Commission — Cosmetic ingredient database",
+    "sourceUrl": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-ingredient-database_en",
+    "retrievedAt": "2026-08-25"
+  },
+  {
+    "id": "fda-fragrance-cosmetics",
+    "topic": "parfum sebagai kosmetik dan tanggung jawab keamanan",
+    "keywords": ["fda", "kosmetik", "cosmetic", "perfume", "cologne", "aftershave", "label", "safety"],
+    "answer": "FDA menjelaskan bahwa parfum, cologne, dan aftershave yang digunakan untuk membuat tubuh lebih menarik termasuk contoh produk kosmetik. Bahan fragrance harus memenuhi persyaratan keamanan seperti bahan kosmetik lain, dan pihak yang membuat atau memasarkan produk bertanggung jawab atas keamanan serta pelabelannya sesuai penggunaan yang dimaksud.",
+    "caution": "Jawaban chatbot bukan penilaian regulasi untuk negara tertentu dan bukan pengganti review label, SDS, atau safety assessment.",
+    "sourceName": "FDA — Fragrances in Cosmetics",
+    "sourceUrl": "https://www.fda.gov/cosmetics/cosmetic-ingredients/fragrances-cosmetics",
+    "retrievedAt": "2026-08-25"
+  },
+  {
+    "id": "fragrance-sensitivity",
+    "topic": "alergi dan sensitivitas fragrance",
+    "keywords": ["alergi", "sensitif", "iritasi", "allergen", "hypoallergenic", "skin", "patch test"],
+    "answer": "FDA mencatat bahwa sebagian orang dapat alergi atau sensitif terhadap bahan fragrance meskipun bahan tersebut aman bagi banyak orang. Karena respons individu berbeda, pengguna perlu membaca label, mengikuti petunjuk pemasok, dan menghentikan pemakaian bila terjadi reaksi yang tidak diinginkan.",
+    "caution": "ParfumAI tidak mendiagnosis alergi, tidak menjamin hypoallergenic, dan tidak boleh memberi klaim aman untuk kulit tanpa data produk akhir.",
+    "sourceName": "FDA — Fragrances in Cosmetics",
+    "sourceUrl": "https://www.fda.gov/cosmetics/cosmetic-ingredients/fragrances-cosmetics",
+    "retrievedAt": "2026-08-25"
+  },
+  {
+    "id": "essential-oil-regulatory-term",
+    "topic": "essential oil dan klaim aromaterapi",
+    "keywords": ["essential oil", "minyak atsiri", "aromaterapi", "klaim terapi", "drug claim", "natural"],
+    "answer": "FDA menyatakan bahwa essential oil tidak memiliki satu definisi regulasi khusus, dan bahan yang berasal dari tanaman diperlakukan seperti bahan dari sumber lain. Bila produk membuat klaim mengobati, mencegah penyakit, atau memengaruhi fungsi tubuh, klasifikasinya dapat berubah dari kosmetik menjadi obat atau gabungan keduanya.",
+    "caution": "Hindari klaim terapeutik di deskripsi formula tanpa dasar regulasi dan bukti yang sesuai.",
+    "sourceName": "FDA — Fragrances in Cosmetics",
+    "sourceUrl": "https://www.fda.gov/cosmetics/cosmetic-ingredients/fragrances-cosmetics",
+    "retrievedAt": "2026-08-25"
+  },
+  {
+    "id": "pubchem-chemical-identity",
+    "topic": "identitas kimia dan CAS bahan parfum",
+    "keywords": ["pubchem", "cas", "chemical identity", "compound", "molecular formula", "inchi", "sds"],
+    "answer": "PubChem menyediakan rekaman Compound yang diringkas dari struktur kimia yang distandardisasi, beserta identifier dan data terkait dari berbagai sumber. CAS atau nama dagang dapat membantu pencarian, tetapi bahan kompleks dan produk fragrance oil tidak otomatis sama dengan satu senyawa murni.",
+    "caution": "Gunakan CAS, INCI, SDS, dan dokumen pemasok untuk disambiguasi. Jangan mengisi identitas atau bahaya bahan yang tidak tercatat di dataset.",
+    "sourceName": "NIH PubChem — Compounds and About PubChem",
+    "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/docs/compounds",
+    "retrievedAt": "2026-08-25"
+  },
+  {
+    "id": "cosmetic-storage-and-opening-date",
+    "topic": "penyimpanan dan usia kosmetik parfum",
+    "keywords": ["simpan", "penyimpanan", "storage", "tanggal buka", "usia produk", "label", "kadaluarsa"],
+    "answer": "FDA menyarankan membaca seluruh label, termasuk daftar bahan, peringatan, dan petunjuk penggunaan; menuliskan tanggal saat kosmetik dibuka dapat membantu memantau usia produk. Untuk parfum racikan, masa simpan tidak boleh ditebak dari formula saja karena bergantung pada bahan, kemasan, proses, dan hasil uji stabilitas.",
+    "caution": "Ikuti petunjuk pemasok dan label produk nyata. ParfumAI tidak menetapkan tanggal kedaluwarsa atau masa simpan tanpa data stabilitas dan batch yang sesuai.",
+    "sourceName": "FDA — Using Cosmetics Safely",
+    "sourceUrl": "https://www.fda.gov/cosmetics/resources-consumers-cosmetics/using-cosmetics-safely",
+    "retrievedAt": "2026-08-25"
+  },
+  {
+    "id": "maturation-after-blending",
+    "topic": "maturasi atau macerasi setelah pencampuran",
+    "keywords": ["maceration", "macerasi", "maturation", "maturasi", "rest", "uji blotter", "settling"],
+    "answer": "Dalam pembuatan parfum, campuran dapat menjalani fase istirahat atau maturasi setelah bahan fragrance dan pelarut digabung agar komposisi menjadi homogen sebelum evaluasi akhir. Durasi dan hasilnya tidak universal; formula perlu dievaluasi ulang pada blotter dan/atau kulit dengan kondisi uji yang tercatat.",
+    "caution": "Maturasi bukan jaminan parfum menjadi lebih kuat, lebih awet, atau aman. Jangan menyalin durasi internet sebagai spesifikasi produksi tanpa validasi formula, kemasan, dan stabilitas.",
+    "sourceName": "IFF — How Perfume Is Made",
+    "sourceUrl": "https://www.iff.com/media/stories/how-perfume-made/",
+    "retrievedAt": "2026-08-25"
+  }
+]

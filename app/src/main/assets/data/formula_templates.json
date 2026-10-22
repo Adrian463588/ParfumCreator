@@ -1,0 +1,2912 @@
+[
+  {
+    "id": 1,
+    "name": "Royal Oud & Damask Rose Imperial",
+    "category": "NATURAL",
+    "fragranceFamily": "WOODY",
+    "concentrationPct": 25.0,
+    "concentrationType": "EXTRAIT_DE_PARFUM",
+    "description": "Formulasi Extrait de Parfum mewah dengan perpaduan Oud murni, Rose Absolute, dan Sandalwood menghasilkan proyeksi sillage megah dan daya tahan 12+ jam.",
+    "ingredients": [
+      {
+        "name": "Bergamot Oil",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Sweet Orange Oil",
+        "amount": 1.25,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Rose Absolute",
+        "amount": 3.75,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Jasmine Sambac Absolute",
+        "amount": 2.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Geranium Bourbon Oil",
+        "amount": 1.25,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Oud Wood Oil",
+        "amount": 4.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Sandalwood Oil",
+        "amount": 5.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Patchouli Dark Oil",
+        "amount": 2.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "EARTHY"
+      },
+      {
+        "name": "Frankincense Olibanum",
+        "amount": 1.75,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 72.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mediterranean Neroli & Bergamot Cologne",
+    "category": "NATURAL",
+    "fragranceFamily": "CITRUS",
+    "concentrationPct": 10.0,
+    "concentrationType": "EAU_DE_COLOGNE",
+    "description": "Racikan klasik segar Mediterania dengan dominasi Italian Bergamot, Lemon Cold Pressed, dan Lavender segar. Cocok untuk cuaca tropis siang hari.",
+    "ingredients": [
+      {
+        "name": "Bergamot Oil",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Lemon Oil",
+        "amount": 2.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Sweet Orange Oil",
+        "amount": 1.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Neroli Oil",
+        "amount": 1.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Orange Blossom Absolute",
+        "amount": 0.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Lavender French Oil",
+        "amount": 1.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FOUGERE"
+      },
+      {
+        "name": "Cedarwood Atlas Oil",
+        "amount": 0.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Clary Sage Oil",
+        "amount": 0.3,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Vetiver Java Oil",
+        "amount": 0.2,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "EARTHY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 87.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Distilled Water / Aquadest",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Java Vetiver & Forest Fern",
+    "category": "NATURAL",
+    "fragranceFamily": "FOUGERE",
+    "concentrationPct": 18.0,
+    "concentrationType": "EAU_DE_PARFUM",
+    "description": "Aroma Fougère aromatik klasik maskulin dengan karakter earthy smoky akar wangi Jawa dipadu Lavender Prancis dan Bergamot.",
+    "ingredients": [
+      {
+        "name": "Grapefruit Pink Oil",
+        "amount": 2.7,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Cardamom Oil",
+        "amount": 0.9,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Lavender French Oil",
+        "amount": 2.7,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FOUGERE"
+      },
+      {
+        "name": "Clary Sage Oil",
+        "amount": 1.8,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Nutmeg Oil",
+        "amount": 0.9,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Vetiver Java Oil",
+        "amount": 5.4,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "EARTHY"
+      },
+      {
+        "name": "Patchouli Dark Oil",
+        "amount": 1.8,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "EARTHY"
+      },
+      {
+        "name": "Oakmoss Absolute",
+        "amount": 0.9,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "CHYPRE"
+      },
+      {
+        "name": "Cedarwood Virginian",
+        "amount": 0.9,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 79.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Velvet Bourbon Vanilla & Spices",
+    "category": "NATURAL",
+    "fragranceFamily": "GOURMAND",
+    "concentrationPct": 20.0,
+    "concentrationType": "EAU_DE_PARFUM",
+    "description": "Gourmand Oriental hangat perpaduan Vanilla Planifolia Bourbon, Tonka Bean, dan Sandalwood balsamic yang menggoda.",
+    "ingredients": [
+      {
+        "name": "Mandarin Red Oil",
+        "amount": 2.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Coriander Seed Oil",
+        "amount": 1.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Ylang Ylang Extra",
+        "amount": 2.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Clove Bud Oil",
+        "amount": 0.6,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Cinnamon Bark Oil",
+        "amount": 0.4,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Vanilla Bourbon Absolute",
+        "amount": 6.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "GOURMAND"
+      },
+      {
+        "name": "Benzoin Siam Resin",
+        "amount": 4.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Sandalwood Oil",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Tonka Bean Absolute",
+        "amount": 1.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "GOURMAND"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 77.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Provence Lavender & Blue Chamomile",
+    "category": "NATURAL",
+    "fragranceFamily": "FOUGERE",
+    "concentrationPct": 14.0,
+    "concentrationType": "EAU_DE_TOILETTE",
+    "description": "Perpaduan herba terapeutik Provence dengan ketenangan bunga Chamomile Biru dan keharuman kayu Cedar.",
+    "ingredients": [
+      {
+        "name": "Bergamot Oil",
+        "amount": 2.8,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Sweet Orange Oil",
+        "amount": 1.4,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Lavender French Oil",
+        "amount": 4.9,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FOUGERE"
+      },
+      {
+        "name": "Chamomile Blue Oil",
+        "amount": 0.7,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Rosemary Cineole Oil",
+        "amount": 0.7,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Cedarwood Atlas Oil",
+        "amount": 2.1,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Labdanum Resinoid",
+        "amount": 0.7,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Frankincense Olibanum",
+        "amount": 0.7,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 83.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Distilled Water / Aquadest",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sacred Frankincense & Desert Myrrh",
+    "category": "NATURAL",
+    "fragranceFamily": "ORIENTAL",
+    "concentrationPct": 22.0,
+    "concentrationType": "EXTRAIT_DE_PARFUM",
+    "description": "Aura spiritual mistis resin kuno Timur Tengah dengan dupa Olibanum Hojari dan getah Myrrh mewah.",
+    "ingredients": [
+      {
+        "name": "Bergamot Oil",
+        "amount": 2.2,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Black Pepper Oil",
+        "amount": 1.1,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Rose Absolute",
+        "amount": 2.2,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Elemi Resin Oil",
+        "amount": 2.2,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Frankincense Olibanum",
+        "amount": 6.6,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Myrrh Oil",
+        "amount": 4.4,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Labdanum Resinoid",
+        "amount": 2.2,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Sandalwood Oil",
+        "amount": 1.1,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 75.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Jasmine Sambac & Green Tea Temple",
+    "category": "NATURAL",
+    "fragranceFamily": "FLORAL",
+    "concentrationPct": 16.0,
+    "concentrationType": "EAU_DE_PARFUM",
+    "description": "Keharuman melati putih Sambac dan pucuk teh hijau yang menenangkan, dipadu dasar kayu cendana lembut.",
+    "ingredients": [
+      {
+        "name": "Lemon Verbena Oil",
+        "amount": 1.6,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Sweet Orange Oil",
+        "amount": 2.4,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Jasmine Sambac Absolute",
+        "amount": 4.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Clary Sage Oil",
+        "amount": 1.6,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Neroli Oil",
+        "amount": 0.8,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Sandalwood Oil",
+        "amount": 3.2,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Vetiver Haiti Oil",
+        "amount": 1.6,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "EARTHY"
+      },
+      {
+        "name": "Amyris Wood Oil",
+        "amount": 0.8,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 81.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Balinese Champaca & Ylang Nectar",
+    "category": "NATURAL",
+    "fragranceFamily": "FLORAL",
+    "concentrationPct": 24.0,
+    "concentrationType": "EXTRAIT_DE_PARFUM",
+    "description": "Sensualitas puspa tropis Nusantara dengan bunga Cempaka Kuning (Champaca), Kenanga, dan Kamboja emas.",
+    "ingredients": [
+      {
+        "name": "Kaffir Lime Oil",
+        "amount": 2.4,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Grapefruit Pink Oil",
+        "amount": 2.4,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Champaca Absolute",
+        "amount": 4.8,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Ylang Ylang Extra",
+        "amount": 3.6,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Frangipani Absolute",
+        "amount": 2.4,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Sandalwood Oil",
+        "amount": 4.8,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Benzoin Siam Resin",
+        "amount": 2.4,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Vanilla Bourbon Absolute",
+        "amount": 1.2,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "GOURMAND"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 73.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Dark Sumatra Patchouli & Amber Vintage",
+    "category": "NATURAL",
+    "fragranceFamily": "EARTHY",
+    "concentrationPct": 20.0,
+    "concentrationType": "EAU_DE_PARFUM",
+    "description": "Kemewahan Nilam Sumatra tua yang difermentasi dengan resin Amber Cistus, melahirkan aroma earthy elegan bernuansa vintage 1970-an.",
+    "ingredients": [
+      {
+        "name": "Blood Orange Oil",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Cardamom Oil",
+        "amount": 1.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Geranium Bourbon Oil",
+        "amount": 2.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Cistus Essential Oil",
+        "amount": 2.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Patchouli Dark Oil",
+        "amount": 7.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "EARTHY"
+      },
+      {
+        "name": "Labdanum Resinoid",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Cedarwood Atlas Oil",
+        "amount": 2.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 77.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Moroccan Rose & Cardamom Souk",
+    "category": "NATURAL",
+    "fragranceFamily": "FLORAL",
+    "concentrationPct": 18.0,
+    "concentrationType": "EAU_DE_PARFUM",
+    "description": "Keindahan mawar merah Maroko yang berpadu dengan kehangatan rempah kapulaga, cengkeh, dan kayu cedar Atlas.",
+    "ingredients": [
+      {
+        "name": "Bergamot Oil",
+        "amount": 2.7,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Cardamom Oil",
+        "amount": 1.8,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Coriander Seed Oil",
+        "amount": 0.9,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Rose Absolute",
+        "amount": 4.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Clove Bud Oil",
+        "amount": 0.54,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Nutmeg Oil",
+        "amount": 0.36,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Cedarwood Atlas Oil",
+        "amount": 4.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Sandalwood Oil",
+        "amount": 1.8,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Frankincense Olibanum",
+        "amount": 0.9,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 79.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "California White Sage & Juniper Mountain",
+    "category": "NATURAL",
+    "fragranceFamily": "GREEN",
+    "concentrationPct": 15.0,
+    "concentrationType": "EAU_DE_TOILETTE",
+    "description": "Udara segar pegunungan pinus liar berpadu aromatik pembersih White Sage dan buah Juniper segar.",
+    "ingredients": [
+      {
+        "name": "Juniper Berry Oil",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Lemon Oil",
+        "amount": 2.25,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "White Sage Oil",
+        "amount": 2.25,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Lavender French Oil",
+        "amount": 2.25,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FOUGERE"
+      },
+      {
+        "name": "Pine Needle Oil",
+        "amount": 1.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Cedarwood Virginian",
+        "amount": 2.25,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Vetiver Java Oil",
+        "amount": 1.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "EARTHY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 82.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Distilled Water / Aquadest",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Sicily Blood Orange & Bitter Cacao",
+    "category": "NATURAL",
+    "fragranceFamily": "GOURMAND",
+    "concentrationPct": 18.0,
+    "concentrationType": "EAU_DE_PARFUM",
+    "description": "Harmoni citrus zesty dari Jeruk Darah Sisilia dengan kepekatan cokelat murni CO2 dan vanila Bourbon.",
+    "ingredients": [
+      {
+        "name": "Blood Orange Oil",
+        "amount": 6.3,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Bergamot Oil",
+        "amount": 1.8,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Cocoa Absolute CO2",
+        "amount": 2.7,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "GOURMAND"
+      },
+      {
+        "name": "Cinnamon Leaf Oil",
+        "amount": 0.9,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Vanilla Bourbon Absolute",
+        "amount": 3.6,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "GOURMAND"
+      },
+      {
+        "name": "Peru Balsam Resin",
+        "amount": 1.8,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Patchouli Dark Oil",
+        "amount": 0.9,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "EARTHY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 79.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Imperial Cedarwood & Black Truffle",
+    "category": "NATURAL",
+    "fragranceFamily": "WOODY",
+    "concentrationPct": 22.0,
+    "concentrationType": "EXTRAIT_DE_PARFUM",
+    "description": "Kayu cedar Atlas megah yang dilapisi asap Guaiacwood dan kedalaman Oakmoss alami.",
+    "ingredients": [
+      {
+        "name": "Bergamot Oil",
+        "amount": 3.3,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Pink Pepper Oil",
+        "amount": 1.1,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Guaiacwood Oil",
+        "amount": 3.3,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Nutmeg Oil",
+        "amount": 1.1,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Cedarwood Atlas Oil",
+        "amount": 6.6,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Cedarwood Virginian",
+        "amount": 3.3,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Vetiver Java Oil",
+        "amount": 2.2,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "EARTHY"
+      },
+      {
+        "name": "Oakmoss Absolute",
+        "amount": 1.1,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "CHYPRE"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 75.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Highland Scots Pine & Fir Balsam",
+    "category": "NATURAL",
+    "fragranceFamily": "GREEN",
+    "concentrationPct": 15.0,
+    "concentrationType": "EAU_DE_TOILETTE",
+    "description": "Kesegaran hutan cemara Siberia dan getah Fir Balsam dengan sensasi embun sejuk peppermint.",
+    "ingredients": [
+      {
+        "name": "Bergamot Oil",
+        "amount": 2.25,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Peppermint Oil",
+        "amount": 0.75,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Eucalyptus Globulus",
+        "amount": 0.75,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Fir Needle Siberian",
+        "amount": 3.75,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Pine Needle Oil",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Fir Balsam Absolute",
+        "amount": 2.25,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Oakmoss Absolute",
+        "amount": 1.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "CHYPRE"
+      },
+      {
+        "name": "Cedarwood Atlas Oil",
+        "amount": 0.75,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 82.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Distilled Water / Aquadest",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Night Blooming Jasmine & Sandalwood",
+    "category": "NATURAL",
+    "fragranceFamily": "FLORAL",
+    "concentrationPct": 25.0,
+    "concentrationType": "EXTRAIT_DE_PARFUM",
+    "description": "Bunga melati malam Grandiflorum dan Sedap Malam (Tuberose) dalam rendaman minyak cendana Mysore.",
+    "ingredients": [
+      {
+        "name": "Mandarin Red Oil",
+        "amount": 2.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Bergamot Oil",
+        "amount": 2.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Jasmine Sambac Absolute",
+        "amount": 6.25,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Tuberose Absolute",
+        "amount": 2.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Sandalwood Oil",
+        "amount": 7.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Labdanum Resinoid",
+        "amount": 2.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Benzoin Siam Resin",
+        "amount": 1.25,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 72.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Molecular Minimalist 01 (Velvet Sillage)",
+    "category": "SYNTHETIC",
+    "fragranceFamily": "WOODY",
+    "concentrationPct": 20.0,
+    "concentrationType": "EAU_DE_PARFUM",
+    "description": "Komposisi molekular modern ultra-bersih dengan proyeksi radiasi Iso E Super, Ambroxan, Hedione, dan Cashmeran.",
+    "ingredients": [
+      {
+        "name": "Hedione",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Pink Pepper Oil",
+        "amount": 1.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Iso E Super",
+        "amount": 9.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Cashmeran",
+        "amount": 2.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "MUSKY"
+      },
+      {
+        "name": "Ambroxan",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Galaxolide 50",
+        "amount": 1.4,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "MUSKY"
+      },
+      {
+        "name": "Habanolide",
+        "amount": 0.6,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "MUSKY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 77.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Aventus Smoke & Pineapple Chypre",
+    "category": "SYNTHETIC",
+    "fragranceFamily": "CHYPRE",
+    "concentrationPct": 18.0,
+    "concentrationType": "EAU_DE_PARFUM",
+    "description": "Arketipe wewangian modern maskulin paling legendaris dengan ledakan nanas segar, asap kayu birch, nilam, dan ambroxan.",
+    "ingredients": [
+      {
+        "name": "Bergamot Oil",
+        "amount": 2.7,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Allyl Caproate (Pineapple)",
+        "amount": 1.8,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "FRUITY"
+      },
+      {
+        "name": "Cassis Base 345B",
+        "amount": 0.9,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "FRUITY"
+      },
+      {
+        "name": "Hedione",
+        "amount": 2.7,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Pink Pepper Oil",
+        "amount": 0.9,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Birch Tar Oil (Rectified)",
+        "amount": 0.18,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "LEATHER"
+      },
+      {
+        "name": "Patchouli Dark Oil",
+        "amount": 1.62,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "EARTHY"
+      },
+      {
+        "name": "Iso E Super",
+        "amount": 4.5,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Ambroxan",
+        "amount": 1.8,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Evernyl (Oakmoss Synth)",
+        "amount": 0.54,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "CHYPRE"
+      },
+      {
+        "name": "Galaxolide 50",
+        "amount": 0.36,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "MUSKY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 79.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Baccarat Amber Rouge 540 Style",
+    "category": "SYNTHETIC",
+    "fragranceFamily": "ORIENTAL",
+    "concentrationPct": 24.0,
+    "concentrationType": "EXTRAIT_DE_PARFUM",
+    "description": "Kehangatan kristal mewah safron emas, Ethyl Maltol gula bakar manis, dan perpaduan Ambergris sintetis Ambroxan.",
+    "ingredients": [
+      {
+        "name": "Safranal (Saffron Accord)",
+        "amount": 1.2,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Blood Orange Oil",
+        "amount": 1.2,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Hedione High Cis",
+        "amount": 6.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Ethyl Maltol",
+        "amount": 1.2,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "GOURMAND"
+      },
+      {
+        "name": "Ambroxan",
+        "amount": 4.8,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Iso E Super",
+        "amount": 4.8,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Cedarwood Atlas Oil",
+        "amount": 3.6,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Evernyl (Oakmoss Synth)",
+        "amount": 1.2,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "CHYPRE"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 73.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Santal 33 Urban Leather & Papyrus",
+    "category": "SYNTHETIC",
+    "fragranceFamily": "WOODY",
+    "concentrationPct": 18.0,
+    "concentrationType": "EAU_DE_PARFUM",
+    "description": "Sensasi kayu cendana berasap ikonik Brooklyn dengan sentuhan kapulaga, daun violet, kulit sintetis, dan papyrus.",
+    "ingredients": [
+      {
+        "name": "Cardamom Oil",
+        "amount": 1.44,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Violet Leaf Accord",
+        "amount": 1.26,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Alpha Ionone (Iris)",
+        "amount": 1.8,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Papyrus Oil",
+        "amount": 1.8,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Hedione",
+        "amount": 2.7,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Javanol (Sandalwood Synth)",
+        "amount": 3.6,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Iso E Super",
+        "amount": 2.7,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Cedarwood Virginian",
+        "amount": 1.8,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Isobutyl Quinoline (Leather)",
+        "amount": 0.9,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "LEATHER"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 79.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Blue Coastal Aquatic & Marine Saline",
+    "category": "SYNTHETIC",
+    "fragranceFamily": "AQUATIC",
+    "concentrationPct": 15.0,
+    "concentrationType": "EAU_DE_TOILETTE",
+    "description": "Kesegaran angin laut samudra dengan molekul Calone, Dihydromyrcenol, dan dasar Ambroxan maskulin.",
+    "ingredients": [
+      {
+        "name": "Calone 1951",
+        "amount": 0.45,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "AQUATIC"
+      },
+      {
+        "name": "Bergamot Oil",
+        "amount": 2.25,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Dihydromyrcenol",
+        "amount": 1.8,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Grapefruit Pink Oil",
+        "amount": 1.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Hedione",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Helional (Ocean Floral)",
+        "amount": 0.75,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "AQUATIC"
+      },
+      {
+        "name": "Geranium Bourbon Oil",
+        "amount": 0.75,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Ambroxan",
+        "amount": 1.8,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Iso E Super",
+        "amount": 2.25,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Galaxolide 50",
+        "amount": 0.45,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "MUSKY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 82.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Distilled Water / Aquadest",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "White Musk Clean Linen & Aldehydes",
+    "category": "SYNTHETIC",
+    "fragranceFamily": "MUSKY",
+    "concentrationPct": 16.0,
+    "concentrationType": "EAU_DE_PARFUM",
+    "description": "Sensasi aroma pakaian linen putih bersih hotel bintang lima berkat perpaduan Aldehida C-12, Galaxolide, dan Habanolide.",
+    "ingredients": [
+      {
+        "name": "Aldehyde C-12 MNA",
+        "amount": 0.15,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "ALDEHYDIC"
+      },
+      {
+        "name": "Bergamot Oil",
+        "amount": 1.45,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Bourgeonal (Lily of Valley)",
+        "amount": 1.31,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Hedione",
+        "amount": 2.91,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Linalool",
+        "amount": 1.45,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Floralozone",
+        "amount": 1.45,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "AQUATIC"
+      },
+      {
+        "name": "Galaxolide 50",
+        "amount": 2.91,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "MUSKY"
+      },
+      {
+        "name": "Ethylene Brassylate",
+        "amount": 2.18,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "MUSKY"
+      },
+      {
+        "name": "Habanolide",
+        "amount": 1.45,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "MUSKY"
+      },
+      {
+        "name": "Cashmeran",
+        "amount": 0.74,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "MUSKY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 81.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Cyberpunk Metallic Iris & Neon Violet",
+    "category": "SYNTHETIC",
+    "fragranceFamily": "FLORAL",
+    "concentrationPct": 20.0,
+    "concentrationType": "EAU_DE_PARFUM",
+    "description": "Visi futuristik aroma neon perkotaan: kilau metalik aldehida, bunga Iris violet dingin, dan dasar Cashmeran.",
+    "ingredients": [
+      {
+        "name": "Aldehyde C-11 Undecylenic",
+        "amount": 0.4,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "ALDEHYDIC"
+      },
+      {
+        "name": "Pink Pepper Oil",
+        "amount": 1.6,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Bergamot Oil",
+        "amount": 2.0,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Alpha Ionone (Iris)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Hedione",
+        "amount": 4.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Methyl Laitone (Creamy)",
+        "amount": 1.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "GOURMAND"
+      },
+      {
+        "name": "Iso E Super",
+        "amount": 4.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Cashmeran",
+        "amount": 2.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "MUSKY"
+      },
+      {
+        "name": "Ambroxan",
+        "amount": 1.6,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Cedarwood Virginian",
+        "amount": 0.4,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 77.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Dark Amber Tobacco & Sweet Vanilla",
+    "category": "SYNTHETIC",
+    "fragranceFamily": "ORIENTAL",
+    "concentrationPct": 22.0,
+    "concentrationType": "EAU_DE_PARFUM",
+    "description": "Aroma tembakau cerutu pirang Kuba manis yang dibalut vanila hangat, kayu manis, dan cistus labdanum.",
+    "ingredients": [
+      {
+        "name": "Ginger Oil",
+        "amount": 1.1,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Cinnamon Bark Oil",
+        "amount": 1.1,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Bergamot Oil",
+        "amount": 2.2,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Tobacco Leaf Accord",
+        "amount": 3.3,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Coumarin (Tonka Synth)",
+        "amount": 2.2,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "GOURMAND"
+      },
+      {
+        "name": "Hedione",
+        "amount": 3.3,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Iso E Super",
+        "amount": 3.3,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Ethyl Vanillin",
+        "amount": 1.1,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "GOURMAND"
+      },
+      {
+        "name": "Ambroxan",
+        "amount": 2.2,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Benzoin Siam Resin",
+        "amount": 2.2,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 75.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Sparkling Champagne & Yuzu Fizz",
+    "category": "SYNTHETIC",
+    "fragranceFamily": "CITRUS",
+    "concentrationPct": 14.0,
+    "concentrationType": "EAU_DE_TOILETTE",
+    "description": "Sensasi desis minuman sampanye mewah berpadu perasan jeruk Yuzu Jepang dan Aldehida segar menyengat.",
+    "ingredients": [
+      {
+        "name": "Aldehyde C-10",
+        "amount": 0.28,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "ALDEHYDIC"
+      },
+      {
+        "name": "Yuzu Accord",
+        "amount": 2.8,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Grapefruit Pink Oil",
+        "amount": 2.1,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Bergamot Oil",
+        "amount": 2.1,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Hedione",
+        "amount": 2.8,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Magnolia Flower Accord",
+        "amount": 1.4,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Ambroxan",
+        "amount": 1.12,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Iso E Super",
+        "amount": 1.12,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Galaxolide 50",
+        "amount": 0.28,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "MUSKY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 83.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Distilled Water / Aquadest",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Velvet Suede & Raspberry Noir",
+    "category": "SYNTHETIC",
+    "fragranceFamily": "LEATHER",
+    "concentrationPct": 19.0,
+    "concentrationType": "EAU_DE_PARFUM",
+    "description": "Sensasi manis buah raspberry gelap yang bertemu keanggunan jaket kulit suede hitam Tuscan.",
+    "ingredients": [
+      {
+        "name": "Frambinone (Raspberry)",
+        "amount": 1.9,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "FRUITY"
+      },
+      {
+        "name": "Safranal (Saffron Accord)",
+        "amount": 0.95,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Thyme Red Oil",
+        "amount": 0.95,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Frankincense Olibanum",
+        "amount": 1.9,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Hedione",
+        "amount": 2.85,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Suederal LT (Leather)",
+        "amount": 3.8,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "LEATHER"
+      },
+      {
+        "name": "Iso E Super",
+        "amount": 2.85,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Amber Synth Base",
+        "amount": 2.85,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Patchouli Dark Oil",
+        "amount": 0.95,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "EARTHY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 78.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Solar Amber Sea & Monoi Beach",
+    "category": "SYNTHETIC",
+    "fragranceFamily": "FLORAL",
+    "concentrationPct": 17.0,
+    "concentrationType": "EAU_DE_PARFUM",
+    "description": "Aroma hangat matahari pantai tropis dengan Benzyl Salicylate bercahaya, kelapa Monoi, dan keharuman Ylang.",
+    "ingredients": [
+      {
+        "name": "Bergamot Oil",
+        "amount": 1.7,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Aldehyde C-18 (Coconut)",
+        "amount": 0.85,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "FRUITY"
+      },
+      {
+        "name": "Benzyl Salicylate",
+        "amount": 3.4,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Hedione",
+        "amount": 3.4,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Ylang Ylang Extra",
+        "amount": 1.7,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Ambroxan",
+        "amount": 1.7,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Cashmeran",
+        "amount": 1.7,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "MUSKY"
+      },
+      {
+        "name": "Vanilla Bourbon Absolute",
+        "amount": 1.7,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "GOURMAND"
+      },
+      {
+        "name": "Sandalwood Oil",
+        "amount": 0.85,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 80.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Espresso Caramel & Hazelnut Oud",
+    "category": "SYNTHETIC",
+    "fragranceFamily": "GOURMAND",
+    "concentrationPct": 22.0,
+    "concentrationType": "EAU_DE_PARFUM",
+    "description": "Sensasi kopi espresso pekat yang disiram karamel mentega hazelnut di atas dasar gaharu modern.",
+    "ingredients": [
+      {
+        "name": "Cardamom Oil",
+        "amount": 1.1,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Coffee CO2 Extract",
+        "amount": 3.3,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "GOURMAND"
+      },
+      {
+        "name": "Ethyl Maltol",
+        "amount": 1.32,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "GOURMAND"
+      },
+      {
+        "name": "Heliotropin Synth",
+        "amount": 1.32,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Hedione",
+        "amount": 2.2,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Oud Synth Base",
+        "amount": 3.96,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Iso E Super",
+        "amount": 3.3,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Vanilla Bourbon Absolute",
+        "amount": 3.3,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "GOURMAND"
+      },
+      {
+        "name": "Sandalwood Oil",
+        "amount": 2.2,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 75.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Green Tea & Osmanthus Fig Tree",
+    "category": "SYNTHETIC",
+    "fragranceFamily": "GREEN",
+    "concentrationPct": 15.0,
+    "concentrationType": "EAU_DE_TOILETTE",
+    "description": "Kesegaran daun buah ara (Fig Tree) dan teh hijau yang berpadu lembut dengan nuansa aprikot bunga Osmanthus.",
+    "ingredients": [
+      {
+        "name": "Stemone (Fig Leaf)",
+        "amount": 0.45,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Bergamot Oil",
+        "amount": 2.25,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Mandarin Red Oil",
+        "amount": 1.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Tea Accord / Hedione",
+        "amount": 3.75,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "GREEN"
+      },
+      {
+        "name": "Osmanthus Absolute",
+        "amount": 1.8,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Gamma Decalactone (Apricot)",
+        "amount": 0.75,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRUITY"
+      },
+      {
+        "name": "Iso E Super",
+        "amount": 2.25,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Cedarwood Virginian",
+        "amount": 1.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Galaxolide 50",
+        "amount": 0.75,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "MUSKY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 82.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Distilled Water / Aquadest",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Modern Barbershop Sauvage Aromatic",
+    "category": "SYNTHETIC",
+    "fragranceFamily": "FOUGERE",
+    "concentrationPct": 18.0,
+    "concentrationType": "EAU_DE_PARFUM",
+    "description": "Karakter pria modern dinamis dengan Calabria Bergamot, lada Sichuan, lavender aromatik, dan dosis tinggi Ambroxan.",
+    "ingredients": [
+      {
+        "name": "Bergamot Oil",
+        "amount": 4.5,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Sichuan Pepper Oil",
+        "amount": 0.9,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Lavender French Oil",
+        "amount": 2.7,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FOUGERE"
+      },
+      {
+        "name": "Geranium Bourbon Oil",
+        "amount": 0.9,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Pink Pepper Oil",
+        "amount": 0.9,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Hedione",
+        "amount": 1.8,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Ambroxan",
+        "amount": 2.7,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Patchouli Dark Oil",
+        "amount": 0.9,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "EARTHY"
+      },
+      {
+        "name": "Vetiver Java Oil",
+        "amount": 0.9,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "EARTHY"
+      },
+      {
+        "name": "Cedarwood Atlas Oil",
+        "amount": 1.8,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 79.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Dipropylene Glycol (DPG Solvent)",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Electric Neroli & Clear Vetiver",
+    "category": "SYNTHETIC",
+    "fragranceFamily": "CITRUS",
+    "concentrationPct": 14.0,
+    "concentrationType": "EAU_DE_TOILETTE",
+    "description": "Kontras elektrik bunga Neroli yang cerah bertenaga dengan aroma akar wangi transparan Vetiveryl Acetate dan Ambroxan.",
+    "ingredients": [
+      {
+        "name": "Neroli Oil",
+        "amount": 2.1,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Petitgrain Bigarade",
+        "amount": 1.4,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Bergamot Oil",
+        "amount": 2.8,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "TOP",
+        "fragranceFamily": "CITRUS"
+      },
+      {
+        "name": "Hedione",
+        "amount": 2.8,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FLORAL"
+      },
+      {
+        "name": "Cardamom Oil",
+        "amount": 0.7,
+        "unit": "g",
+        "type": "NATURAL",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "SPICY"
+      },
+      {
+        "name": "Vetiveryl Acetate",
+        "amount": 2.1,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "EARTHY"
+      },
+      {
+        "name": "Iso E Super",
+        "amount": 1.4,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "WOODY"
+      },
+      {
+        "name": "Ambroxan",
+        "amount": 0.7,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "BASE",
+        "fragranceFamily": "ORIENTAL"
+      },
+      {
+        "name": "Alkohol Absolute 96% (Perfumer's Alcohol)",
+        "amount": 83.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "MIDDLE",
+        "fragranceFamily": "FRESH"
+      },
+      {
+        "name": "Distilled Water / Aquadest",
+        "amount": 3.0,
+        "unit": "g",
+        "type": "SYNTHETIC",
+        "noteType": "TOP",
+        "fragranceFamily": "FRESH"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Konsentrat Latihan Botanical — Bergamot Lavender Sandalwood",
+    "category": "NATURAL",
+    "fragranceFamily": "FLORAL",
+    "concentrationPct": 100.0,
+    "concentrationType": "PARFUM_EXTRAIT",
+    "sourceType": "APP_CALCULATED_STARTER",
+    "description": "Template awal hasil perhitungan aplikasi dari bahan katalog yang tersedia, memakai bobot Top/Heart/Base 25/45/30. Ini rancangan konsentrat 100% tanpa pelarut, bukan resep teruji atau formula supplier; belum untuk aplikasi kulit. Family dan SPL mengikuti metadata katalog dan heuristik; periksa dokumen bahan sebelum pemakaian.",
+    "ingredients": [
+      { "name": "Bergamot Essential Oil", "amount": 25.0, "unit": "g", "type": "NATURAL", "noteType": "TOP", "fragranceFamily": "CITRUS" },
+      { "name": "Lavender Essential Oil (40/42)", "amount": 45.0, "unit": "g", "type": "NATURAL", "noteType": "HEART", "fragranceFamily": "FLORAL" },
+      { "name": "Sandalwood Essential Oil", "amount": 30.0, "unit": "g", "type": "NATURAL", "noteType": "BASE", "fragranceFamily": "WOODY" }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Konsentrat Latihan Bibit — First Instinct Luzi",
+    "category": "SYNTHETIC",
+    "fragranceFamily": "ORIENTAL",
+    "concentrationPct": 100.0,
+    "concentrationType": "PARFUM_EXTRAIT",
+    "sourceType": "APP_CALCULATED_STARTER",
+    "description": "Template penimbangan awal 10 g dari satu bibit katalog Luzi. Ini konsentrat 100% tanpa pelarut, bukan formula resmi Luzi atau produk siap pakai pada kulit. Metadata family berasal dari katalog lama dan belum diverifikasi supplier. Gunakan planner dengan pelarut katalog untuk menghitung target pengenceran.",
+    "ingredients": [
+      { "name": "First Instinct Abercrombie & Fitch", "brand": "LUZI", "amount": 10.0, "unit": "g", "type": "SYNTHETIC", "noteType": "MIDDLE", "fragranceFamily": "ORIENTAL" }
+    ]
+  }
+]

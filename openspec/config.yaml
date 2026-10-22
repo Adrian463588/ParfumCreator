@@ -1,0 +1,8 @@
+schema: spec-driven
+
+context: |
+  ParfumCreator is an Android Kotlin/Compose app for natural and catalog fragrance-oil perfume formulation.
+  Follow docs/PRD.md and docs/DESIGN.md. Use existing layers, SOLID, DRY and YAGNI.
+  BMAD analysis/planning/implementation/review/QA is documented per change.
+  Never fabricate source evidence, catalog IDs, scientific performance or safety clearance.
+  Preserve user data and privacy preferences. Report automated and device acceptance separately.

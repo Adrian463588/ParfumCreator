@@ -1,0 +1,40 @@
+# Local SDK, build outputs and caches
+.gradle/
+.kotlin/
+**/build/
+local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Private runtime state, credentials and large downloaded LLM artifacts
+.chrome_scraper_profile/
+downloaded_files/
+*.litertlm
+*.gguf
+*.download.part
+*.tmp
+*.jks
+*.keystore
+keystore.properties
+.env
+.env.*
+!.env.example
+
+# Third-party reference checkouts/raw scraping workspaces; not application source
+docs/AndroidChatbot/
+docs/ProjectReference/
+docs/AntiSlop/
+docs/scraperReferences/
+docs/Database/
+scripts/scraper/
+__pycache__/
+*.py[cod]
+
+# Host/editor artifacts
+Thumbs.db
+.DS_Store
+*.hprof
+*.log
