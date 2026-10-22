@@ -15,5 +15,5 @@
 - [x] Run unit tests, lint and assemble independently and record results: 120 tests PASS; lint 0 errors/89 warnings/2 hints; debug APK 1.1.0 PASS.
 - [x] Run device acceptance if available; record unavailable gates explicitly otherwise: no connected device/configured AVD; real model/UI acceptance remains unverified.
 - [x] Review staged diff, sensitive/generated files and source/data provenance.
-- [ ] Commit, create private GitHub repository, set description/topics and push; verify remote SHA.
-- [ ] Publish final checklist with evidence and remaining device limitations.
+- [x] Commit, create private GitHub repository, set description/topics and push; verify remote SHA. Initial source commit `1951d77310e05e73d32eea709fa10b2dbfe5e745` matched `origin/main` through both Git and GitHub API.
+- [x] Publish final checklist with evidence and remaining device limitations in IMPLEMENTATION_AUDIT.md section 10 and the handoff.

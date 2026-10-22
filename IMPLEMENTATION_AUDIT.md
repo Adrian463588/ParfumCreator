@@ -346,3 +346,22 @@ no matches. APKs, downloaded LLMs, browser profiles, raw reference checkouts,
 local SDK configuration and generated caches are excluded. The user authorized
 a new private `Adrian463588/ParfumCreator` repository through `gh`; its description
 and 11 topics were populated. README, changelog and provenance are included.
+
+Delivery verified: initial implementation commit
+`1951d77310e05e73d32eea709fa10b2dbfe5e745` was pushed to private
+`https://github.com/Adrian463588/ParfumCreator`, default branch `main`.
+`git ls-remote --heads origin main` and the GitHub Git-reference API returned
+the same SHA; the remote README was also confirmed. The subsequent documentation
+commit records this evidence without changing the tested application source.
+
+Final acceptance checklist:
+
+- [x] Relevant local/upload evidence and cited extractive offline answers.
+- [x] Automatic fallback after opt-in, weak-cache refresh, explicit OFF, provider failure and cancellation.
+- [x] Actual bundled natural + Luzi/Parfarome/Macrabame catalog formulation tests.
+- [x] Unique material/brand resolution, atomic recommendation import, totals and saved metrics.
+- [x] Aggregate wheel, solvent exclusion, mass-preserving units and heuristic SPL labels.
+- [x] Two transparent catalog-based starter concentrates; unsupported legacy recipes fail explicitly.
+- [x] 120 unit tests, Android lint with zero errors, debug build and strict OpenSpec validation.
+- [x] Version 1.1.0, README/changelog/provenance, private repository description/topics and verified source push.
+- [ ] Real-device model download/inference, upload/source navigation, internet fallback and visual acceptance: no device/AVD available this session.
