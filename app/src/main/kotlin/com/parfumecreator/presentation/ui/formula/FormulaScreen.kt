@@ -74,7 +74,7 @@ fun FormulaScreen(
                     IconButton(onClick = { viewModel.showTemplatesDialog(true) }) {
                         Icon(
                             Icons.Default.AutoAwesome,
-                            contentDescription = "30 Template Resep",
+                            contentDescription = "Template Resep Natural dan Bibit",
                             tint = PerfumeSecondary
                         )
                     }
@@ -351,13 +351,26 @@ fun FormulaScreen(
         )
     }
 
-    // 30 Masterpiece Formula Templates Bottom Sheet
+    // The library and ingredient mapping share the existing catalog picker.
     if (uiState.isTemplatesDialogVisible) {
-        FormulaTemplatesBottomSheet(
-            templates = uiState.templates,
-            onDismiss = { viewModel.showTemplatesDialog(false) },
-            onLoadTemplate = { viewModel.loadTemplate(it) }
-        )
+        if (uiState.templatePickerIndex != null) {
+            IngredientPickerBottomSheet(
+                ingredients = uiState.templateCandidates,
+                onDismiss = viewModel::dismissTemplateIngredientPicker,
+                onSelect = viewModel::bindTemplateIngredient
+            )
+        } else {
+            FormulaTemplatesBottomSheet(
+                state = uiState,
+                onDismiss = { viewModel.showTemplatesDialog(false) },
+                onPreview = viewModel::previewTemplate,
+                onClosePreview = viewModel::closeTemplatePreview,
+                onBatchChange = viewModel::setTemplateBatch,
+                onSelectIngredient = viewModel::chooseTemplateIngredient,
+                onAcknowledge = viewModel::acknowledgeTemplateAdaptation,
+                onApply = viewModel::applyTemplate
+            )
+        }
     }
 
     // Fragrance Wheel Full 12-Family Breakdown Sheet
@@ -937,7 +950,7 @@ private fun IngredientPickerBottomSheet(
                                         fontWeight = FontWeight.SemiBold
                                     )
                                     Text(
-                                        text = "${ing.noteType.displayName} • ${ing.fragranceFamily.displayName} • ${ing.brand ?: "Natural"}",
+                                        text = "${ing.noteType.displayName} • ${ing.fragranceFamily.displayName} • ${ing.brand ?: "Natural"} • ID ${ing.id}",
                                         style = MaterialTheme.typography.bodyMedium,
                                         fontSize = 11.sp,
                                         color = PerfumeOutline
@@ -1027,7 +1040,7 @@ private fun SavedFormulasBottomSheet(
 
             Spacer(modifier = Modifier.height(12.dp))
 
-            // Quick Banner: 30 Template Resep Master
+            // Recipe library shortcut
             Surface(
                 onClick = {
                     onDismiss()
@@ -1059,7 +1072,7 @@ private fun SavedFormulasBottomSheet(
                     Spacer(modifier = Modifier.width(12.dp))
                     Column(modifier = Modifier.weight(1f)) {
                         Text(
-                            text = "30 Template Resep Master",
+                            text = "Template Resep Natural & Bibit",
                             style = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.Bold,
                             color = PerfumeOnPrimaryContainer
@@ -1450,378 +1463,6 @@ private fun SaveFormulaDialog(
                         )
                     }
                 }
-            }
-        }
-    }
-}
-
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-fun FormulaTemplatesBottomSheet(
-    templates: List<FormulaTemplate>,
-    onDismiss: () -> Unit,
-    onLoadTemplate: (FormulaTemplate) -> Unit
-) {
-    val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
-    var searchQuery by remember { mutableStateOf("") }
-    var selectedCategory by remember { mutableStateOf<String?>(null) }
-    var selectedFamily by remember { mutableStateOf<FragranceFamily?>(null) }
-
-    val filteredTemplates = remember(templates, searchQuery, selectedCategory, selectedFamily) {
-        templates.filter { t ->
-            val matchCategory = selectedCategory == null || t.category.equals(selectedCategory, ignoreCase = true)
-            val matchFamily = selectedFamily == null || t.fragranceFamily == selectedFamily
-            val matchQuery = searchQuery.isBlank() ||
-                    t.name.contains(searchQuery, ignoreCase = true) ||
-                    t.description.contains(searchQuery, ignoreCase = true) ||
-                    t.fragranceFamily.displayName.contains(searchQuery, ignoreCase = true) ||
-                    t.ingredients.any { it.name.contains(searchQuery, ignoreCase = true) }
-            matchCategory && matchFamily && matchQuery
-        }
-    }
-
-    ModalBottomSheet(
-        onDismissRequest = onDismiss,
-        sheetState = sheetState,
-        containerColor = PerfumeSurface
-    ) {
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(16.dp)
-                .padding(bottom = 32.dp)
-        ) {
-            // Header
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.SpaceBetween,
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                Column {
-                    Text(
-                        text = "30 Masterpiece Templates",
-                        style = MaterialTheme.typography.titleLarge,
-                        fontFamily = FontFamily.Serif,
-                        fontWeight = FontWeight.Bold
-                    )
-                    Text(
-                        text = "Natural botanical & bibit sintetis; periksa batas penggunaan bahan",
-                        style = MaterialTheme.typography.bodySmall,
-                        color = PerfumeOutline
-                    )
-                }
-                Surface(
-                    shape = RoundedCornerShape(8.dp),
-                    color = PerfumeSecondaryContainer
-                ) {
-                    Text(
-                        text = "${filteredTemplates.size} Resep",
-                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp),
-                        style = MaterialTheme.typography.labelSmall,
-                        fontWeight = FontWeight.Bold,
-                        color = PerfumeOnSecondaryContainer
-                    )
-                }
-            }
-
-            Spacer(modifier = Modifier.height(12.dp))
-
-            // Search Box
-            OutlinedTextField(
-                value = searchQuery,
-                onValueChange = { searchQuery = it },
-                modifier = Modifier.fillMaxWidth(),
-                placeholder = { Text("Cari nama racikan, bahan, atau aroma...", color = PerfumeOutline, fontSize = 13.sp) },
-                leadingIcon = {
-                    Icon(Icons.Default.Search, contentDescription = null, tint = PerfumeOutline, modifier = Modifier.size(18.dp))
-                },
-                trailingIcon = {
-                    if (searchQuery.isNotBlank()) {
-                        IconButton(onClick = { searchQuery = "" }) {
-                            Icon(Icons.Default.Close, contentDescription = "Clear", tint = PerfumeOutline, modifier = Modifier.size(18.dp))
-                        }
-                    }
-                },
-                singleLine = true,
-                shape = RoundedCornerShape(12.dp),
-                colors = OutlinedTextFieldDefaults.colors(
-                    focusedBorderColor = PerfumePrimary,
-                    unfocusedBorderColor = PerfumeOutline.copy(alpha = 0.3f),
-                    focusedContainerColor = PerfumeSurfaceVariant,
-                    unfocusedContainerColor = PerfumeSurfaceVariant
-                )
-            )
-
-            Spacer(modifier = Modifier.height(10.dp))
-
-            // Category & Family Filter Dropdowns (Responsive 2-column grid)
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(8.dp)
-            ) {
-                // 1. Category Dropdown
-                val categoryOptions = listOf(
-                    null to "Semua Kategori (${templates.size})",
-                    "NATURAL" to "🌿 Natural (${templates.count { it.category == "NATURAL" }})",
-                    "SYNTHETIC" to "🧪 Sintetis (${templates.count { it.category == "SYNTHETIC" }})"
-                )
-                val selectedCategoryLabel = categoryOptions.find { it.first == selectedCategory }?.second ?: "Semua Kategori (${templates.size})"
-                FilterDropdown(
-                    selectedOption = selectedCategoryLabel,
-                    options = categoryOptions,
-                    onOptionSelected = { selectedCategory = it },
-                    modifier = Modifier.weight(1f)
-                )
-
-                // 2. Family Dropdown
-                val familyOptions = listOf(null to "Semua Famili") + listOf(
-                    FragranceFamily.CITRUS to "🍋 Citrus",
-                    FragranceFamily.FLORAL to "🌸 Floral",
-                    FragranceFamily.WOODY to "🌲 Woody",
-                    FragranceFamily.ORIENTAL to "🏺 Amber",
-                    FragranceFamily.FOUGERE to "🍃 Fougère",
-                    FragranceFamily.GOURMAND to "🍮 Gourmand",
-                    FragranceFamily.AQUATIC to "🌊 Aquatic",
-                    FragranceFamily.GREEN to "🌱 Green",
-                    FragranceFamily.LEATHER to "🧳 Leather"
-                ).map { it.first.name to it.second }
-                val selectedFamilyLabel = if (selectedFamily != null) {
-                    familyOptions.find { it.first == selectedFamily?.name }?.second ?: "Semua Famili"
-                } else "Semua Famili"
-                FilterDropdown(
-                    selectedOption = selectedFamilyLabel,
-                    options = familyOptions,
-                    onOptionSelected = { key ->
-                        selectedFamily = key?.let { FragranceFamily.valueOf(it) }
-                    },
-                    modifier = Modifier.weight(1f)
-                )
-            }
-
-            Spacer(modifier = Modifier.height(12.dp))
-
-            // List of Templates
-            if (filteredTemplates.isEmpty()) {
-                Box(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(180.dp)
-                        .glassCard()
-                        .padding(24.dp),
-                    contentAlignment = Alignment.Center
-                ) {
-                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                        Icon(
-                            Icons.Default.SearchOff,
-                            contentDescription = null,
-                            tint = PerfumeOutline,
-                            modifier = Modifier.size(36.dp)
-                        )
-                        Spacer(modifier = Modifier.height(8.dp))
-                        Text(
-                            text = "Tidak ditemukan resep yang cocok",
-                            style = MaterialTheme.typography.bodyMedium,
-                            color = PerfumeOutline
-                        )
-                    }
-                }
-            } else {
-                LazyColumn(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .heightIn(max = 500.dp),
-                    verticalArrangement = Arrangement.spacedBy(12.dp)
-                ) {
-                    items(filteredTemplates, key = { it.id }) { template ->
-                        TemplateItemCard(
-                            template = template,
-                            onUse = {
-                                onDismiss()
-                                onLoadTemplate(template)
-                            }
-                        )
-                    }
-                }
-            }
-        }
-    }
-}
-
-@Composable
-private fun TemplateItemCard(
-    template: FormulaTemplate,
-    onUse: () -> Unit
-) {
-    val isNatural = template.category.equals("NATURAL", ignoreCase = true)
-
-    Surface(
-        shape = RoundedCornerShape(14.dp),
-        color = PerfumeSurfaceVariant,
-        border = BorderStroke(
-            1.dp,
-            if (isNatural) Color(0xFF4CAF50).copy(alpha = 0.3f) else PerfumePrimary.copy(alpha = 0.3f)
-        ),
-        modifier = Modifier.fillMaxWidth()
-    ) {
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(14.dp)
-        ) {
-            // Header Row: Badges + Family
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.SpaceBetween,
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                Row(
-                    horizontalArrangement = Arrangement.spacedBy(6.dp),
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    // Category Badge
-                    Surface(
-                        shape = RoundedCornerShape(6.dp),
-                        color = if (isNatural) Color(0xFF2E7D32).copy(alpha = 0.2f) else PerfumePrimaryContainer
-                    ) {
-                        Text(
-                            text = if (isNatural) "🌿 NATURAL" else "🧪 SINTETIS",
-                            modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp),
-                            style = MaterialTheme.typography.labelSmall,
-                            fontWeight = FontWeight.Bold,
-                            color = if (isNatural) Color(0xFF81C784) else PerfumePrimary,
-                            fontSize = 10.sp
-                        )
-                    }
-
-                    // Fragrance Family Badge
-                    Surface(
-                        shape = RoundedCornerShape(6.dp),
-                        color = PerfumeBackground.copy(alpha = 0.6f)
-                    ) {
-                        Row(
-                            modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp),
-                            verticalAlignment = Alignment.CenterVertically
-                        ) {
-                            Box(
-                                modifier = Modifier
-                                    .size(6.dp)
-                                    .clip(CircleShape)
-                                    .background(Color(android.graphics.Color.parseColor(template.fragranceFamily.hexColor)))
-                            )
-                            Spacer(modifier = Modifier.width(4.dp))
-                            Text(
-                                text = template.fragranceFamily.displayName,
-                                style = MaterialTheme.typography.labelSmall,
-                                color = PerfumeOnBackground,
-                                fontSize = 10.sp
-                            )
-                        }
-                    }
-                }
-
-                // Concentration Badge
-                Text(
-                    text = "${template.concentrationType.displayName} (${String.format("%.0f%%", template.concentrationPct)})",
-                    style = MaterialTheme.typography.labelSmall,
-                    fontWeight = FontWeight.SemiBold,
-                    color = PerfumeSecondary,
-                    fontSize = 11.sp
-                )
-            }
-
-            Spacer(modifier = Modifier.height(8.dp))
-
-            // Title
-            Text(
-                text = template.name,
-                style = MaterialTheme.typography.titleMedium,
-                fontWeight = FontWeight.Bold,
-                color = PerfumeOnBackground
-            )
-
-            Spacer(modifier = Modifier.height(4.dp))
-
-            // Description
-            Text(
-                text = template.description,
-                style = MaterialTheme.typography.bodySmall,
-                color = PerfumeOutline,
-                maxLines = 2,
-                overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis,
-                lineHeight = 16.sp
-            )
-
-            Spacer(modifier = Modifier.height(10.dp))
-
-            // Ingredients Chip Preview (Scrollable horizontal or list)
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .horizontalScroll(rememberScrollState()),
-                horizontalArrangement = Arrangement.spacedBy(6.dp),
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                template.ingredients.forEach { item ->
-                    val noteColor = when (item.noteType) {
-                        NoteType.TOP -> Color(0xFFF5C842)
-                        NoteType.MIDDLE, NoteType.HEART -> Color(0xFFE8B4D0)
-                        NoteType.BASE -> Color(0xFF8B6914)
-                    }
-                    Surface(
-                        shape = RoundedCornerShape(6.dp),
-                        color = PerfumeBackground.copy(alpha = 0.7f),
-                        border = BorderStroke(0.5.dp, noteColor.copy(alpha = 0.5f))
-                    ) {
-                        Row(
-                            modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp),
-                            verticalAlignment = Alignment.CenterVertically
-                        ) {
-                            Box(
-                                modifier = Modifier
-                                    .size(5.dp)
-                                    .clip(CircleShape)
-                                    .background(noteColor)
-                            )
-                            Spacer(modifier = Modifier.width(4.dp))
-                            Text(
-                                text = "${item.name} (${String.format("%.1f", item.amount)} ${item.unit})",
-                                style = MaterialTheme.typography.labelSmall,
-                                color = PerfumeOnBackground.copy(alpha = 0.85f),
-                                fontSize = 10.sp
-                            )
-                        }
-                    }
-                }
-            }
-
-            Spacer(modifier = Modifier.height(12.dp))
-
-            // Load / Use Template Button
-            Button(
-                onClick = onUse,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(38.dp),
-                shape = RoundedCornerShape(10.dp),
-                colors = ButtonDefaults.buttonColors(
-                    containerColor = PerfumePrimary,
-                    contentColor = PerfumeOnPrimary
-                ),
-                contentPadding = PaddingValues(horizontal = 14.dp, vertical = 6.dp)
-            ) {
-                Icon(
-                    Icons.Default.AutoAwesome,
-                    contentDescription = null,
-                    modifier = Modifier.size(16.dp),
-                    tint = PerfumeOnPrimary
-                )
-                Spacer(modifier = Modifier.width(8.dp))
-                Text(
-                    text = "Gunakan Template Ini",
-                    style = MaterialTheme.typography.labelMedium,
-                    fontWeight = FontWeight.Bold,
-                    color = PerfumeOnPrimary
-                )
             }
         }
     }

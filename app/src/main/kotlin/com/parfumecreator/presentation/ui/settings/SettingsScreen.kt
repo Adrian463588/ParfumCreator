@@ -34,6 +34,7 @@ import com.parfumecreator.presentation.ui.theme.*
 fun SettingsScreen(
     viewModel: SettingsViewModel,
     onNavigateBack: (() -> Unit)? = null,
+    onOpenTemplates: (() -> Unit)? = null,
     modifier: Modifier = Modifier
 ) {
     val context = LocalContext.current
@@ -453,6 +454,21 @@ fun SettingsScreen(
                             Spacer(modifier = Modifier.width(4.dp))
                             Text("Import", fontSize = 11.sp, fontWeight = FontWeight.SemiBold)
                         }
+                    }
+                }
+            }
+
+            onOpenTemplates?.let { openTemplates ->
+                Surface(
+                    onClick = openTemplates,
+                    shape = MaterialTheme.shapes.medium,
+                    color = MaterialTheme.colorScheme.surfaceVariant,
+                    modifier = Modifier.fillMaxWidth().heightIn(min = 48.dp)
+                ) {
+                    Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                        Text("Template Resep", style = MaterialTheme.typography.titleMedium)
+                        Text("Natural & bibit sintetis · preview, pilih bahan, gunakan di editor",
+                            style = MaterialTheme.typography.bodySmall)
                     }
                 }
             }

@@ -157,7 +157,12 @@ data class FormulaTemplate(
     val concentrationPct: Double,
     val concentrationType: ConcentrationType,
     val description: String,
-    val ingredients: List<FormulaTemplateItem>
+    val ingredients: List<FormulaTemplateItem>,
+    val sourceId: String? = null,
+    val sourceFile: String = "formula_templates.json",
+    val sourceUrls: List<String> = emptyList(),
+    val familyLabel: String = fragranceFamily.displayName,
+    val isExperimental: Boolean = false
 )
 
 data class FormulaTemplateItem(
@@ -167,5 +172,7 @@ data class FormulaTemplateItem(
     val type: IngredientType = IngredientType.NATURAL,
     val noteType: NoteType = NoteType.MIDDLE,
     val fragranceFamily: FragranceFamily = FragranceFamily.FRESH,
-    val brand: String? = null
+    val brand: String? = null,
+    val catalogCode: String? = null,
+    val requiresSelection: Boolean = false
 )

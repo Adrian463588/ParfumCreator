@@ -365,3 +365,36 @@ Final acceptance checklist:
 - [x] 120 unit tests, Android lint with zero errors, debug build and strict OpenSpec validation.
 - [x] Version 1.1.0, README/changelog/provenance, private repository description/topics and verified source push.
 - [ ] Real-device model download/inference, upload/source navigation, internet fallback and visual acceptance: no device/AVD available this session.
+
+---
+
+## 7. Version 1.2.0 Audit & Acceptance Verification (2026-10-26)
+
+### 7.1 Scope & Feature Verification
+- **Bundled Datasets**: 100 natural (`100_resep_parfum_natural_eksperimental_2026.json`) and 100 commercial fragrance concentrate (`100_racikan_bibit_luzi_macbrame_parfarome_2026.json`) studies bundled unchanged with verified SHA-256 hashes in `DATA_PROVENANCE.md`. Total templates available: 232 (200 new + 32 legacy/starter).
+- **Pure Validated Parser & Off-Main Loader**: `FormulaTemplateParser` validates IDs, finite positive amounts, mass percentage sums (100%), and reference grams (10 g). Invalid files are rejected atomically without contaminating valid datasets. `FormulaTemplateLoader` caches parsed templates on IO.
+- **Explicit Catalog Resolution & Consent**: `CatalogIngredientResolver` and `ApplyFormulaTemplateUseCase` prevent silent substitutions or SKU inventions. Accord slots without verified SKUs (LUZI/Parfarome) require explicit user selection of real catalog products. Adapted formulas require explicit checkbox consent and are recorded with provenance in formula notes.
+- **Atomic Application**: Target batch scaling (finite, positive mass) is calculated via `FormulaCalculationEngine`. Formula draft is replaced only upon complete validation; cancellation leaves the existing draft intact.
+- **UI/UX Anti-Slop Compliance**: `FormulaTemplatesBottomSheet` utilizes native Material 3 design tokens, guarantees >= 48dp touch targets on all interactive elements, TalkBack semantics, search/filter matrices, and explicit URL intent error handling.
+
+### 7.2 Verification Gates Matrix
+
+| Gate | Target / Scope | Result | Evidence |
+| --- | --- | --- | --- |
+| **Unit Tests** | `:app:testDebugUnitTest` | **PASS** | **162 tests, 17 suites, 0 failures, 0 errors, 0 skipped**. Includes 21 parser tests and 21 application use case tests. |
+| **Android Lint** | `:app:lintDebug` | **PASS** | **0 errors**. No lint suppressions added. |
+| **Debug Build** | `:app:assembleDebug` | **PASS** | `app-debug.apk` built (121,373,306 bytes). SHA-256: `1633A3233CB4415404FB2F012844783DFA649D537989ABDF3D66F8E5ED45F8F3`. |
+| **Connected Device Tests** | `:app:connectedDebugAndroidTest` | **PASS** | **5 tests, 0 failures (100% success)** on physical hardware: `2412DPC0AG` (Android 16, transport_id: 2). Verified asset packaging, caching, and Compose UI search/preview flow. |
+| **OpenSpec Validation** | `recipe-template-library --strict` | **PASS** | `@fission-ai/openspec@1.15.0`: Change `recipe-template-library` is valid. |
+
+### 7.3 Final Acceptance Checklist (v1.2.0)
+- [x] 100 natural & 100 bibit concentrate studies bundled with verified provenance.
+- [x] Pure parser with full mass percentage and reference gram validation.
+- [x] Searchable, category & aroma filtered recipe browser in Formula & Settings.
+- [x] Scaled batch preview with non-skin-ready concentrate warnings and source citations.
+- [x] Explicit catalog binding requirement for unverified accords; adaptation consent enforced.
+- [x] Atomic application to Formula Creator without auto-saving.
+- [x] 162 unit tests passing, zero lint errors, clean assembleDebug APK.
+- [x] Connected instrumented tests passing on real Android device (`2412DPC0AG`).
+- [x] OpenSpec SDD change validated strictly.
+- [x] Version bumped to 1.2.0 (versionCode 3) with release & download documentation.

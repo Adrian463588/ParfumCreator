@@ -5,6 +5,8 @@
 
 ## 1. Design Philosophy
 
+Kontrak 1.2.0: Template Resep tersedia dari Formula dan Pengaturan, memakai bento card sederhana tanpa tab baru. Daftar memiliki pencarian, kategori Natural/Bibit, aroma dan jumlah dinamis. Detail scrollable memuat komposisi persen/gram, target batch, status binding, link sumber serta warning eksperimen/konsentrat. Pemilihan bahan memakai picker katalog yang sama. Tombol gunakan hanya aktif untuk resep lengkap/valid dan adaptasi yang disetujui; mengganti draft tidak sama dengan menyimpan. Semua kontrol baru minimal 48 dp dan warna berasal dari MaterialTheme.
+
 Kontrak 1.1.0 (2026-10-23): pertahankan layout bento minimalis. Fallback internet yang sudah diaktifkan berjalan otomatis tanpa dialog per pertanyaan. Card sumber menampilkan dokumen/halaman atau tautan publik. Kesalahan retrieval tetap terlihat, sedangkan hash/istilah teknis tidak mendominasi isi jawaban. Formula/wheel memakai hasil kalkulator bersama; kosong/hanya pelarut tidak mengklaim family aroma. SPL dilabeli heuristik, tanpa janji longevity/sillage.
 
 Parfume Creator menggunakan estetika **"Luxury Apothecary"** — memadukan keanggunan botol parfum premium dengan nuansa lab ilmiah yang modern. Tampilan dark-first dengan aksen warna amber/gold dan hint hijau botanikal.

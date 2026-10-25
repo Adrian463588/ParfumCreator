@@ -2,12 +2,27 @@
 
 Android companion for creating perfumes from natural aromatics and catalog fragrance oils, with local document retrieval and optional automatic internet fallback.
 
-Version **1.1.0** · Android 8.0+ (API 26) · Kotlin / Jetpack Compose / Material 3
+Version **1.2.0** · Android 8.0+ (API 26) · Kotlin / Jetpack Compose / Material 3
+
+## Unduh Aplikasi & Rilis (Downloads & Releases)
+
+Unduh build APK versi terbaru atau telusuri riwayat versi:
+- **Versi Terbaru (Latest Release)**: [v1.2.0](https://github.com/Adrian463588/ParfumCreator/releases/tag/v1.2.0)
+- **Unduh Langsung APK**: [ParfumCreator-v1.2.0-debug.apk](https://github.com/Adrian463588/ParfumCreator/releases/download/v1.2.0/app-debug.apk)
+- **Semua Rilis & Riwayat Versi**: [GitHub Releases](https://github.com/Adrian463588/ParfumCreator/releases)
+
+### Riwayat Versi (Release History)
+| Versi | Tanggal | Catatan Rilis | Link Unduh |
+| --- | --- | --- | --- |
+| **v1.2.0** | 2026-10-26 | Integrasi 200 template resep (100 natural & 100 bibit sintetis), dynamic recipe browser, preview konsentrat, manual binding & batch scaling | [Unduh APK v1.2.0](https://github.com/Adrian463588/ParfumCreator/releases/download/v1.2.0/app-debug.apk) |
+| **v1.1.0** | 2026-10-23 | Peningkatan RAG lokal, opt-in internet fallback otomatis, audit formula katalog | [Detail Rilis v1.1.0](https://github.com/Adrian463588/ParfumCreator/releases/tag/v1.1.0) |
+| **v1.0.0** | 2026-08-20 | Rilis dasar ParfumCreator dengan kalkulator formula & AI companion | [Detail Rilis v1.0.0](https://github.com/Adrian463588/ParfumCreator/releases/tag/v1.0.0) |
 
 ## Capabilities
 
 - Create and save formulas using real catalog ingredient IDs; natural and branded fragrance-oil blends share one calculation engine.
-- Use two explicitly labeled catalog-based starter concentrates; legacy templates with missing materials remain unavailable until their ingredients are resolved.
+- Browse 100 supplied natural and 100 supplied fragrance-oil concentrate studies, plus 32 existing templates. Search names, NAT/BIB IDs, materials, supplier codes or brands; filter by category/aroma.
+- Preview and mass-scale a recipe, select real catalog products for unresolved materials, acknowledge adaptations, then apply the complete draft to Formula Creator. No silent substitutions, invented SKUs or automatic saving.
 - Convert g, mg and mL using catalog density; calculate mass concentration, note proportions and a weighted fragrance wheel.
 - Upload PDF, TXT, MD, CSV or JSON documents through Android's document picker and answer from indexed local passages with page/file citations.
 - Enable **Internet Fallback** in Settings to search automatically when local evidence is insufficient. There is no per-question confirmation. Explicit OFF keeps lookup and cached web evidence disabled.
@@ -34,6 +49,7 @@ Debug APK: `app/build/outputs/apk/debug/app-debug.apk`. Test and lint reports ar
 ## Use
 
 1. Open Library to inspect materials, brands, notes and metadata.
+   For recipes, open **Settings > Template Resep** or the template action in **Formula**. Select **Detail & gunakan**, review the target grams and bind every missing material. Explicit substitutions are recorded as an adaptation. **Gunakan di Formula Creator** replaces the draft only after complete validation; cancel leaves it unchanged.
 2. Open Documents and upload a readable document; wait for indexing to finish.
 3. Ask AI Chat a question about the document. Sources remain visible even without an LLM.
 4. Enable Internet Fallback in Settings if automatic public knowledge lookup is wanted.
@@ -46,7 +62,7 @@ Examples: `Buatkan parfum natural citrus 100 g EDP`; `Buatkan parfum dari bibit 
 
 `presentation` renders Compose state; `domain` owns models, use cases and calculations; `data` owns Room/DataStore/repositories; `core` owns embedding, parsing, network and LiteRT adapters. Reuse shared policies rather than adding parallel implementations. Follow SOLID, DRY and YAGNI.
 
-Development uses BMAD analysis/planning/implementation/review/QA and OpenSpec change artifacts. The active contract and scenarios are in [OpenSpec change](openspec/changes/perfumery-companion-reliability/proposal.md), [scenario specification](openspec/changes/perfumery-companion-reliability/specs/perfumery-companion/spec.md), and [task/evidence checklist](openspec/changes/perfumery-companion-reliability/tasks.md).
+Development uses BMAD analysis/planning/implementation/review/QA and OpenSpec change artifacts. The recipe feature has a [proposal](openspec/changes/recipe-template-library/proposal.md), [scenario specification](openspec/changes/recipe-template-library/specs/recipe-template-library/spec.md), and [task/evidence checklist](openspec/changes/recipe-template-library/tasks.md). Earlier companion reliability evidence remains in its separate change folder.
 
 See [product requirements](docs/PRD.md), [design](docs/DESIGN.md), [data provenance](DATA_PROVENANCE.md), [changelog](CHANGELOG.md), and [implementation/verification audit](IMPLEMENTATION_AUDIT.md). BMAD/OpenSpec are authoring methodology, not runtime dependencies.
 
@@ -55,6 +71,8 @@ See [product requirements](docs/PRD.md), [design](docs/DESIGN.md), [data provena
 Inference and document indexing run locally. Only sanitized current-question text is sent for enabled knowledge lookup; uploaded text and chat history are not included in search requests. Network fetches require HTTPS and exact host allowlisting, bounded responses and timeouts. Downloaded LLMs require pinned revision, size and checksum verification.
 
 Catalog and embedding assets were already present in the supplied project. Some legacy product-family/density metadata and safety fields lack supplier provenance; treat them as catalog metadata, not verified scientific or regulatory facts. See DATA_PROVENANCE.md. No blanket license or redistribution rights are asserted for third-party datasets, models or references.
+
+The 200 supplied studies are experimental **concentrates**, not finished skin-ready perfumes, supplier originals or award-winning formulas. LUZI/Parfarome accord slots in those files have no verified SKU and always need explicit real-product selection. Natural grades must not be silently replaced. The app does not prescribe a safe dilution or grant IFRA clearance.
 
 ## Acceptance status
 

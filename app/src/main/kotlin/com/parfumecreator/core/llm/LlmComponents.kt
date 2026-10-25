@@ -661,6 +661,8 @@ class PerfumeExpertInferenceEngine @Inject constructor(
             (!natural || template.category.equals("NATURAL", true)) &&
                 (!synthetic || template.category.equals("SYNTHETIC", true))
         }
+        val requestedSourceId = Regex("(?i)\\b(?:NAT|BIB)-[0-9]{3}\\b").find(prompt)?.value
+        if (requestedSourceId != null) return eligible.singleOrNull { it.sourceId.equals(requestedSourceId, true) }
         val requestedId = Regex("(?i)\\b(?:template|templat|formula)\\s*(?:id\\s*|#\\s*)?(\\d+)\\b")
             .find(prompt.replace('_', ' '))?.groupValues?.get(1)?.toIntOrNull()
         if (requestedId != null) return eligible.singleOrNull { it.id == requestedId }
@@ -668,6 +670,8 @@ class PerfumeExpertInferenceEngine @Inject constructor(
         val ranked = eligible.map { template ->
             val searchable = listOf(
                 template.name,
+                template.sourceId.orEmpty(),
+                template.familyLabel,
                 template.category,
                 template.fragranceFamily.name,
                 template.fragranceFamily.displayName,
@@ -691,6 +695,7 @@ class PerfumeExpertInferenceEngine @Inject constructor(
         item: FormulaTemplateItem,
         catalogIngredients: List<IngredientEntity>
     ): IngredientEntity? {
+        if (item.requiresSelection) return null
         val matched = CatalogIngredientResolver.resolve(item.name, item.type, catalogIngredients.map { it.toDomain() }, item.brand)
             ?: return null
         return catalogIngredients.firstOrNull { it.id == matched.id }
@@ -711,7 +716,8 @@ class PerfumeExpertInferenceEngine @Inject constructor(
         }
         append("**Template terpilih:** ").append(template.name).append(" (ID ")
             .append(template.id).append(")\n")
-        append("**Sumber resep:** formula_templates.json; bahan katalog dipetakan hanya jika ada kecocokan nyata.\n\n")
+        append("**Sumber resep:** ").append(template.sourceFile).append(" #")
+            .append(template.sourceId ?: template.id).append("; bahan katalog dipetakan hanya jika ada kecocokan nyata.\n\n")
         append(template.description).append("\n\n")
 
         append("#### Formula persis dari template\n\n")
@@ -728,7 +734,7 @@ class PerfumeExpertInferenceEngine @Inject constructor(
         append("- Konsentrasi template: **").append(formula.concentration).append("**.\n")
         append("- SPL deterministik: **").append("%.2f".format(java.util.Locale.US, datasetSpl))
             .append("/100**; ini indeks dari konsentrasi dan rasio Top/Heart/Base, bukan hasil uji kulit.\n")
-        append("- Family dataset: **").append(template.fragranceFamily.displayName).append("**.\n\n")
+        append("- Family dataset: **").append(template.familyLabel).append("**.\n\n")
 
         val unresolved = resolvedItems.filter { it.catalogIngredient == null }.map { it.item.name }
         if (unresolved.isNotEmpty()) {

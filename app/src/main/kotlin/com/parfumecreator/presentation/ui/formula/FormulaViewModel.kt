@@ -3,7 +3,6 @@ package com.parfumecreator.presentation.ui.formula
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.parfumecreator.core.formula.FormulaTemplateLoader
-import com.parfumecreator.domain.engine.CatalogIngredientResolver
 import com.parfumecreator.domain.engine.FormulaCalculationEngine
 import com.parfumecreator.domain.model.*
 import com.parfumecreator.domain.usecase.*
@@ -11,9 +10,20 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import java.util.Locale
 import javax.inject.Inject
-import kotlin.math.abs
+
+/** Unsaved preview; changing bindings or batch never changes the active formula. */
+data class TemplateDraft(
+    val template: FormulaTemplate,
+    val batchText: String,
+    val bindings: Map<Int, Long>,
+    val acknowledgeAdaptation: Boolean = false,
+    val application: TemplateApplication? = null,
+    val error: String? = null
+)
 
 data class FormulaUiState(
     val formulaName: String = "Untitled Formulation",
@@ -21,6 +31,11 @@ data class FormulaUiState(
     val calculation: FormulaCalculationResult? = null,
     val savedFormulas: List<Formula> = emptyList(),
     val templates: List<FormulaTemplate> = emptyList(),
+    val isLoadingTemplates: Boolean = true,
+    val templateLoadErrors: List<String> = emptyList(),
+    val templateDraft: TemplateDraft? = null,
+    val templatePickerIndex: Int? = null,
+    val templateCandidates: List<Ingredient> = emptyList(),
     val allIngredients: List<Ingredient> = emptyList(),
     val isIngredientPickerVisible: Boolean = false,
     val isSaveDialogVisible: Boolean = false,
@@ -42,16 +57,20 @@ class FormulaViewModel @Inject constructor(
     private val getIngredientsUseCase: GetIngredientsUseCase,
     private val deleteFormulaUseCase: DeleteFormulaUseCase,
     private val templateLoader: FormulaTemplateLoader,
-    private val validateRecommendedFormulaUseCase: ValidateRecommendedFormulaUseCase
+    private val validateRecommendedFormulaUseCase: ValidateRecommendedFormulaUseCase,
+    private val applyFormulaTemplateUseCase: ApplyFormulaTemplateUseCase
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(FormulaUiState())
     val uiState: StateFlow<FormulaUiState> = _uiState.asStateFlow()
 
     init {
-        // Load master templates
-        val loadedTemplates = templateLoader.getTemplates()
-        _uiState.update { it.copy(templates = loadedTemplates) }
+        viewModelScope.launch {
+            val (templates, errors) = withContext(Dispatchers.IO) {
+                templateLoader.getTemplates() to templateLoader.errors
+            }
+            _uiState.update { it.copy(templates = templates, templateLoadErrors = errors, isLoadingTemplates = false) }
+        }
 
         // Load saved formulas
         viewModelScope.launch {
@@ -66,6 +85,7 @@ class FormulaViewModel @Inject constructor(
         viewModelScope.launch {
             getIngredientsUseCase().collect { ingredients ->
                 _uiState.update { it.copy(allIngredients = ingredients) }
+                _uiState.value.templateDraft?.let(::updateTemplateDraft)
             }
         }
     }
@@ -232,62 +252,87 @@ class FormulaViewModel @Inject constructor(
     }
 
     fun showTemplatesDialog(show: Boolean) {
-        _uiState.update { it.copy(isTemplatesDialogVisible = show) }
+        _uiState.update { it.copy(
+            isTemplatesDialogVisible = show, templateDraft = null,
+            templatePickerIndex = null, templateCandidates = emptyList()
+        ) }
     }
 
-    fun loadTemplate(template: FormulaTemplate) {
-        val availableIngredients = _uiState.value.allIngredients
-        val resolved = template.ingredients.map { item ->
-            item to CatalogIngredientResolver.resolve(item.name, item.type, availableIngredients, item.brand)
-        }
-        val unresolved = resolved.filter { it.second == null }.map { it.first.name }
+    fun previewTemplate(template: FormulaTemplate) {
+        val batch = String.format(Locale.ROOT, "%.6f", template.ingredients.sumOf { it.amount })
+            .trimEnd('0').trimEnd('.')
+        updateTemplateDraft(TemplateDraft(
+            template, batch, applyFormulaTemplateUseCase.initialBindings(template, _uiState.value.allIngredients)
+        ))
+    }
 
-        if (unresolved.isNotEmpty()) {
-            _uiState.update {
-                it.copy(
-                    isTemplatesDialogVisible = false,
-                    userMessage = "Template belum dimuat: bahan katalog tidak tersedia atau ambigu (" +
-                        unresolved.joinToString(", ") +
-                        "). Tidak ada pengganti otomatis."
-                )
-            }
-            return
-        }
+    fun closeTemplatePreview() {
+        _uiState.update { it.copy(templateDraft = null, templatePickerIndex = null, templateCandidates = emptyList()) }
+    }
 
-        val inputs = resolved.map { (item, ingredient) ->
-            val unit = when (item.unit.trim().lowercase(Locale.ROOT)) {
-                "g", "gram" -> MeasurementUnit.GRAM
-                "mg", "milligram" -> MeasurementUnit.MILLIGRAM
-                "ml", "milliliter" -> MeasurementUnit.MILLILITER
-                else -> {
-                    _uiState.update { it.copy(userMessage = "Template belum dimuat: satuan ${item.unit} tidak didukung.") }
-                    return
-                }
+    fun setTemplateBatch(value: String) {
+        _uiState.value.templateDraft?.let { updateTemplateDraft(it.copy(batchText = value)) }
+    }
+
+    fun acknowledgeTemplateAdaptation(value: Boolean) {
+        _uiState.value.templateDraft?.let { updateTemplateDraft(it.copy(acknowledgeAdaptation = value)) }
+    }
+
+    fun chooseTemplateIngredient(index: Int) {
+        val item = _uiState.value.templateDraft?.template?.ingredients?.getOrNull(index) ?: return
+        val candidates = applyFormulaTemplateUseCase.eligibleIngredients(item, _uiState.value.allIngredients)
+        _uiState.update { it.copy(templatePickerIndex = index, templateCandidates = candidates) }
+    }
+
+    fun dismissTemplateIngredientPicker() {
+        _uiState.update { it.copy(templatePickerIndex = null, templateCandidates = emptyList()) }
+    }
+
+    fun bindTemplateIngredient(ingredient: Ingredient) {
+        val state = _uiState.value
+        val draft = state.templateDraft ?: return
+        val index = state.templatePickerIndex ?: return
+        if (ingredient.id !in state.templateCandidates.map { it.id }) return
+        dismissTemplateIngredientPicker()
+        updateTemplateDraft(draft.copy(
+            bindings = draft.bindings + (index to ingredient.id), acknowledgeAdaptation = false
+        ))
+    }
+
+    fun applyTemplate() {
+        val state = _uiState.value
+        val draft = state.templateDraft ?: return
+        val result = applyFormulaTemplateUseCase(
+            draft.template, state.allIngredients, draft.bindings,
+            draft.batchText.replace(',', '.').toDoubleOrNull() ?: Double.NaN, draft.acknowledgeAdaptation
+        )
+        result.fold(
+            onSuccess = { application ->
+                _uiState.update { it.copy(
+                    formulaName = draft.template.name + if (application.isAdaptation) " (Adaptasi)" else "",
+                    items = application.inputs, calculation = application.calculation, calculationError = null,
+                    notes = application.notes, activeFormulaId = null, isTemplatesDialogVisible = false,
+                    templateDraft = null, templatePickerIndex = null, templateCandidates = emptyList(),
+                    isSavedFormulasSheetVisible = false, isWheelDetailVisible = false,
+                    userMessage = "Resep dimuat ke editor. Tinjau sebelum menyimpan; belum siap digunakan di kulit."
+                ) }
+            },
+            onFailure = { error ->
+                _uiState.update { it.copy(templateDraft = draft.copy(error = error.message)) }
             }
-            FormulaIngredientInput(ingredient ?: return, item.amount, unit)
-        }
-        val calculation = calculateFormulaUseCase(inputs)
-        val error = calculation.validationError
-        if (error != null || inputs.isEmpty() || inputs.any { it.amount <= 0.0 } ||
-            !template.concentrationPct.isFinite() || template.concentrationPct <= 0.0 ||
-            template.concentrationPct > 100.0 || calculation.fragranceWeightG <= 0.0 ||
-            abs(calculation.concentrationPct - template.concentrationPct) > 0.1
-        ) {
-            _uiState.update {
-                it.copy(userMessage = error ?: "Template belum dimuat: jumlah atau konsentrasi tidak sesuai komposisi katalog.")
-            }
-            return
-        }
-        _uiState.update {
-            it.copy(
-                formulaName = template.name,
-                notes = template.description,
-                activeFormulaId = null,
-                isTemplatesDialogVisible = false,
-                userMessage = "Template '${template.name}' berhasil dimuat!"
-            )
-        }
-        recalculate(inputs)
+        )
+    }
+
+    private fun updateTemplateDraft(draft: TemplateDraft) {
+        val bindings = applyFormulaTemplateUseCase.initialBindings(draft.template, _uiState.value.allIngredients) + draft.bindings
+        val result = applyFormulaTemplateUseCase(
+            draft.template, _uiState.value.allIngredients, bindings,
+            draft.batchText.replace(',', '.').toDoubleOrNull() ?: Double.NaN,
+            acknowledgeAdaptation = true
+        )
+        _uiState.update { it.copy(templateDraft = draft.copy(
+            bindings = bindings, application = result.getOrNull(), error = result.exceptionOrNull()?.message
+        )) }
     }
 
     fun showWheelDetail(show: Boolean) {

@@ -1,0 +1,4855 @@
+{
+  "metadata": {
+    "research_date": "2026-10-23",
+    "language": "id",
+    "formulation_basis": "percentage by mass (w/w) of fragrance concentrate, not finished perfume",
+    "important": "No claim that these 100 are disclosed award-winning perfumers' originals; they are newly drafted experimental formula concepts. No IFRA or allergen clearance. Do not directly apply to skin.",
+    "source_urls": {
+      "awards_2026": "https://fragrance.org/awards/",
+      "awards_archive": "https://fragrance.org/awards-archive/",
+      "natural_education": "https://www.karengilbert.co.uk/how-to-make-natural-perfume",
+      "natural_formula_examples": "https://www.perfumelessons.com/pdf-formulas/natural-perfumes",
+      "natural_other": "https://formulachemistry.com/how-to-make-natural-perfume/",
+      "ifra": "https://ifrafragrance.org/using-the-standards",
+      "ifra_guidance": "https://ifrafragrance.org/docs/default-source/51st-amendment/ifra-51st-amendment---guidance-for-the-use-of-ifra-standards.pdf?sfvrsn=79750005_2",
+      "macbrame": "https://macbrame.com/",
+      "parfarome": "https://parfarome.com/parfarome/catalog/",
+      "luzi": "https://c2ccertified.org/certified-products/c2c-002429",
+      "perfumersworld": "https://www.perfumersworld.com/perfume-formulas.php"
+    },
+    "award_references_2026": [
+      {
+        "perfumer": "Dominique Ropion",
+        "recognized_work": "Portrait of a Lady (Hall of Fame)",
+        "url": "https://fragrance.org/awards/"
+      },
+      {
+        "perfumer": "Marie Salamagne",
+        "recognized_work": "YSL Le Vestiaire Muse (Perfume Extraordinaire)",
+        "url": "https://fragrance.org/awards/"
+      },
+      {
+        "perfumer": "Jérôme Epinette",
+        "recognized_work": "Rare Beauty Eau de Parfum",
+        "url": "https://fragrance.org/awards/"
+      },
+      {
+        "perfumer": "Honorine Blanc",
+        "recognized_work": "Lifetime Achievement Perfumer 2026",
+        "url": "https://fragrance.org/awards/"
+      }
+    ],
+    "quality_limits": [
+      "No sensory/longevity data",
+      "No exact manufacturer formula published",
+      "No supplier IFRA certificates",
+      "No current price/stock confirmation",
+      "Do not interpret experimental scores as objective best"
+    ],
+    "dataset_type": "commercial_fragrance_concentrate",
+    "records": 100,
+    "catalog_policy": "Only Macbrame entries have verified actual SKU; LUZI and Parfarome are unverified accord placeholders, not real product claims."
+  },
+  "recipes": [
+    {
+      "id": "BIB-001",
+      "formula_name": "MELATI KRATON Blend Balanced Blend 001",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "MELATI KRATON",
+          "catalog_code": "22476",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft white floral accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-002",
+      "formula_name": "AVRILLIA ROSE Blend Balanced Blend 002",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "AVRILLIA ROSE",
+          "catalog_code": "1774",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft white floral accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-003",
+      "formula_name": "ALIEN LINA Blend Balanced Blend 003",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "ALIEN LINA",
+          "catalog_code": "4526",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft white floral accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-004",
+      "formula_name": "NADINIA REHA Blend Balanced Blend 004",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "NADINIA REHA",
+          "catalog_code": "3254B",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft white floral accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-005",
+      "formula_name": "LOVELY PARKER Blend Balanced Blend 005",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "LOVELY PARKER",
+          "catalog_code": "1100",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft white floral accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-006",
+      "formula_name": "ROSALIO LV Blend Balanced Blend 006",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "ROSALIO LV",
+          "catalog_code": "23477",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-007",
+      "formula_name": "QUEEN TAYLOR PREMIO Blend Balanced Blend 007",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "QUEEN TAYLOR PREMIO",
+          "catalog_code": "23266",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-008",
+      "formula_name": "RED BAKKA FLUSH Blend Balanced Blend 008",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "RED BAKKA FLUSH",
+          "catalog_code": "64841",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-009",
+      "formula_name": "V CHANELIA Blend Balanced Blend 009",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "V CHANELIA",
+          "catalog_code": "2220",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-010",
+      "formula_name": "KATY ROYAL Blend Balanced Blend 010",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "KATY ROYAL",
+          "catalog_code": "14092",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-011",
+      "formula_name": "VICTORIA PASSION Blend Balanced Blend 011",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "VICTORIA PASSION",
+          "catalog_code": "2054",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-012",
+      "formula_name": "MILLIONAIRE WOMEN Blend Balanced Blend 012",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "MILLIONAIRE WOMEN",
+          "catalog_code": "20346",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-013",
+      "formula_name": "SULTAN WHITE Blend Balanced Blend 013",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "SULTAN WHITE",
+          "catalog_code": "5891",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-014",
+      "formula_name": "BLACK MUSK REHA Blend Balanced Blend 014",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "BLACK MUSK REHA",
+          "catalog_code": "5356",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-015",
+      "formula_name": "PASSPORT EIFELL Blend Balanced Blend 015",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "PASSPORT EIFELL",
+          "catalog_code": "1639",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-016",
+      "formula_name": "AQUA SPLASH Blend Balanced Blend 016",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "AQUA SPLASH",
+          "catalog_code": "20118",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "amberwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-017",
+      "formula_name": "MARINE AQUA Blend Balanced Blend 017",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "MARINE AQUA",
+          "catalog_code": "673",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "amberwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-018",
+      "formula_name": "SUPER AQUA Blend Balanced Blend 018",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "SUPER AQUA",
+          "catalog_code": "27788",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "amberwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-019",
+      "formula_name": "HAPPY MEN Blend Balanced Blend 019",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "HAPPY MEN",
+          "catalog_code": "3577",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "amberwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-020",
+      "formula_name": "SOFT BELLY Blend Balanced Blend 020",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "SOFT BELLY",
+          "catalog_code": "33066",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "amberwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-021",
+      "formula_name": "JAGY VISUAL Blend Balanced Blend 021",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "JAGY VISUAL",
+          "catalog_code": "21681",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-022",
+      "formula_name": "MIKO SORA Blend Balanced Blend 022",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "MIKO SORA",
+          "catalog_code": "70245",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-023",
+      "formula_name": "VICTORIOUS AQUA Blend Balanced Blend 023",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "VICTORIOUS AQUA",
+          "catalog_code": "72278",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-024",
+      "formula_name": "HAWAII MT Blend Balanced Blend 024",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "HAWAII MT",
+          "catalog_code": "33956",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-025",
+      "formula_name": "BALINESE KENZA Blend Balanced Blend 025",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "BALINESE KENZA",
+          "catalog_code": "24058",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-026",
+      "formula_name": "LIGHTING BLUE Blend Balanced Blend 026",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "LIGHTING BLUE",
+          "catalog_code": "27518",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-027",
+      "formula_name": "SABAYA RAMA Blend Balanced Blend 027",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "SABAYA RAMA",
+          "catalog_code": "28163",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-028",
+      "formula_name": "YELLOW AMBER Blend Balanced Blend 028",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "YELLOW AMBER",
+          "catalog_code": "27377",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-029",
+      "formula_name": "MOON BLUES Blend Balanced Blend 029",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "MOON BLUES",
+          "catalog_code": "20667",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-030",
+      "formula_name": "DUNE BLUE Blend Balanced Blend 030",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "DUNE BLUE",
+          "catalog_code": "29846",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-031",
+      "formula_name": "BOSS ENERGY Blend Balanced Blend 031",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "BOSS ENERGY",
+          "catalog_code": "4438",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "amberwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-032",
+      "formula_name": "GRANDE SOIR MFK Blend Balanced Blend 032",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "GRANDE SOIR MFK",
+          "catalog_code": "28575",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft woody accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-033",
+      "formula_name": "CHOCOMUSKY Blend Balanced Blend 033",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "CHOCOMUSKY",
+          "catalog_code": "28113",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft woody accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-034",
+      "formula_name": "ZARA CHOCO Blend Balanced Blend 034",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "ZARA CHOCO",
+          "catalog_code": "28002A",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft woody accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-035",
+      "formula_name": "MUTHHELA SOFT Blend Balanced Blend 035",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "MUTHHELA SOFT",
+          "catalog_code": "4994",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft woody accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-036",
+      "formula_name": "SULTAN MT Blend Balanced Blend 036",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "SULTAN MT",
+          "catalog_code": "33957",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "amber resin accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-037",
+      "formula_name": "AL FAREZ Blend Balanced Blend 037",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "AL FAREZ",
+          "catalog_code": "20144A",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "amber resin accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-038",
+      "formula_name": "BLACK OPICO Blend Balanced Blend 038",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "BLACK OPICO",
+          "catalog_code": "22163",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "amber resin accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-039",
+      "formula_name": "BLAU CHANEL Blend Balanced Blend 039",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "BLAU CHANEL",
+          "catalog_code": "9602",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "amber resin accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-040",
+      "formula_name": "MIKO DREAMY Blend Balanced Blend 040",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "MIKO DREAMY",
+          "catalog_code": "72454",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "LUZI",
+          "material": "amber resin accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-041",
+      "formula_name": "SULTAN AL OUDH Blend Balanced Blend 041",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "SULTAN AL OUDH",
+          "catalog_code": "28106",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-042",
+      "formula_name": "VANILLA CAKE Blend Balanced Blend 042",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "VANILLA CAKE",
+          "catalog_code": "30316",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-043",
+      "formula_name": "VANILLA LACE NEW Blend Balanced Blend 043",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "VANILLA LACE NEW",
+          "catalog_code": "24704",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-044",
+      "formula_name": "BLUE MEN RASI Blend Balanced Blend 044",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "BLUE MEN RASI",
+          "catalog_code": "334",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "amber resin accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "smooth vanilla accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-045",
+      "formula_name": "SULTAN WHITE Blend Balanced Blend 045",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "SULTAN WHITE",
+          "catalog_code": "5891",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 55
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft white floral accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 25
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        5.5,
+        2.5,
+        2.0
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-046",
+      "formula_name": "MELATI KRATON Blend Fresh Lift 046",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "MELATI KRATON",
+          "catalog_code": "22476",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-047",
+      "formula_name": "AVRILLIA ROSE Blend Fresh Lift 047",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "AVRILLIA ROSE",
+          "catalog_code": "1774",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-048",
+      "formula_name": "ALIEN LINA Blend Fresh Lift 048",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "ALIEN LINA",
+          "catalog_code": "4526",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-049",
+      "formula_name": "NADINIA REHA Blend Fresh Lift 049",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "NADINIA REHA",
+          "catalog_code": "3254B",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-050",
+      "formula_name": "LOVELY PARKER Blend Fresh Lift 050",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "LOVELY PARKER",
+          "catalog_code": "1100",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-051",
+      "formula_name": "ROSALIO LV Blend Fresh Lift 051",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "ROSALIO LV",
+          "catalog_code": "23477",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-052",
+      "formula_name": "QUEEN TAYLOR PREMIO Blend Fresh Lift 052",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "QUEEN TAYLOR PREMIO",
+          "catalog_code": "23266",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-053",
+      "formula_name": "RED BAKKA FLUSH Blend Fresh Lift 053",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "RED BAKKA FLUSH",
+          "catalog_code": "64841",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-054",
+      "formula_name": "V CHANELIA Blend Fresh Lift 054",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "V CHANELIA",
+          "catalog_code": "2220",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-055",
+      "formula_name": "KATY ROYAL Blend Fresh Lift 055",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "KATY ROYAL",
+          "catalog_code": "14092",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-056",
+      "formula_name": "VICTORIA PASSION Blend Fresh Lift 056",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "VICTORIA PASSION",
+          "catalog_code": "2054",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft white floral accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-057",
+      "formula_name": "MILLIONAIRE WOMEN Blend Fresh Lift 057",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "MILLIONAIRE WOMEN",
+          "catalog_code": "20346",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft white floral accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-058",
+      "formula_name": "SULTAN WHITE Blend Fresh Lift 058",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "SULTAN WHITE",
+          "catalog_code": "5891",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft white floral accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-059",
+      "formula_name": "BLACK MUSK REHA Blend Fresh Lift 059",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "BLACK MUSK REHA",
+          "catalog_code": "5356",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft white floral accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-060",
+      "formula_name": "PASSPORT EIFELL Blend Fresh Lift 060",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "PASSPORT EIFELL",
+          "catalog_code": "1639",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft white floral accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-061",
+      "formula_name": "AQUA SPLASH Blend Fresh Lift 061",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "AQUA SPLASH",
+          "catalog_code": "20118",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-062",
+      "formula_name": "MARINE AQUA Blend Fresh Lift 062",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "MARINE AQUA",
+          "catalog_code": "673",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-063",
+      "formula_name": "SUPER AQUA Blend Fresh Lift 063",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "SUPER AQUA",
+          "catalog_code": "27788",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-064",
+      "formula_name": "HAPPY MEN Blend Fresh Lift 064",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "HAPPY MEN",
+          "catalog_code": "3577",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-065",
+      "formula_name": "SOFT BELLY Blend Fresh Lift 065",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "SOFT BELLY",
+          "catalog_code": "33066",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-066",
+      "formula_name": "JAGY VISUAL Blend Fresh Lift 066",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "JAGY VISUAL",
+          "catalog_code": "21681",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-067",
+      "formula_name": "MIKO SORA Blend Fresh Lift 067",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "MIKO SORA",
+          "catalog_code": "70245",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-068",
+      "formula_name": "VICTORIOUS AQUA Blend Fresh Lift 068",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "VICTORIOUS AQUA",
+          "catalog_code": "72278",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-069",
+      "formula_name": "HAWAII MT Blend Fresh Lift 069",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "HAWAII MT",
+          "catalog_code": "33956",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-070",
+      "formula_name": "BALINESE KENZA Blend Fresh Lift 070",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "BALINESE KENZA",
+          "catalog_code": "24058",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-071",
+      "formula_name": "LIGHTING BLUE Blend Fresh Lift 071",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "LIGHTING BLUE",
+          "catalog_code": "27518",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "amberwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-072",
+      "formula_name": "SABAYA RAMA Blend Fresh Lift 072",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "SABAYA RAMA",
+          "catalog_code": "28163",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "amberwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-073",
+      "formula_name": "YELLOW AMBER Blend Fresh Lift 073",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "YELLOW AMBER",
+          "catalog_code": "27377",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "amberwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-074",
+      "formula_name": "MOON BLUES Blend Fresh Lift 074",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "MOON BLUES",
+          "catalog_code": "20667",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "amberwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-075",
+      "formula_name": "DUNE BLUE Blend Fresh Lift 075",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "DUNE BLUE",
+          "catalog_code": "29846",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "amberwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-076",
+      "formula_name": "BOSS ENERGY Blend Fresh Lift 076",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "BOSS ENERGY",
+          "catalog_code": "4438",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "amberwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "citrus aquatic accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-077",
+      "formula_name": "GRANDE SOIR MFK Blend Fresh Lift 077",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "GRANDE SOIR MFK",
+          "catalog_code": "28575",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "amber resin accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-078",
+      "formula_name": "CHOCOMUSKY Blend Fresh Lift 078",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "CHOCOMUSKY",
+          "catalog_code": "28113",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "amber resin accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-079",
+      "formula_name": "ZARA CHOCO Blend Fresh Lift 079",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "ZARA CHOCO",
+          "catalog_code": "28002A",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "amber resin accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-080",
+      "formula_name": "MUTHHELA SOFT Blend Fresh Lift 080",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "MUTHHELA SOFT",
+          "catalog_code": "4994",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "amber resin accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-081",
+      "formula_name": "SULTAN MT Blend Fresh Lift 081",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "SULTAN MT",
+          "catalog_code": "33957",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "amber resin accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "smooth vanilla accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-082",
+      "formula_name": "AL FAREZ Blend Fresh Lift 082",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "AL FAREZ",
+          "catalog_code": "20144A",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "amber resin accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "smooth vanilla accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-083",
+      "formula_name": "BLACK OPICO Blend Fresh Lift 083",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "BLACK OPICO",
+          "catalog_code": "22163",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "amber resin accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "smooth vanilla accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-084",
+      "formula_name": "BLAU CHANEL Blend Fresh Lift 084",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "BLAU CHANEL",
+          "catalog_code": "9602",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "amber resin accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "smooth vanilla accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-085",
+      "formula_name": "MIKO DREAMY Blend Fresh Lift 085",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "MIKO DREAMY",
+          "catalog_code": "72454",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "LUZI",
+          "material": "amber resin accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "Parfarome",
+          "material": "smooth vanilla accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-086",
+      "formula_name": "SULTAN AL OUDH Blend Fresh Lift 086",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "SULTAN AL OUDH",
+          "catalog_code": "28106",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-087",
+      "formula_name": "VANILLA CAKE Blend Fresh Lift 087",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "VANILLA CAKE",
+          "catalog_code": "30316",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-088",
+      "formula_name": "VANILLA LACE NEW Blend Fresh Lift 088",
+      "family": "fresh",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "VANILLA LACE NEW",
+          "catalog_code": "24704",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "white musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "aromatic lavender accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-089",
+      "formula_name": "BLUE MEN RASI Blend Fresh Lift 089",
+      "family": "oriental",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "BLUE MEN RASI",
+          "catalog_code": "334",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "smooth vanilla accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft woody accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-090",
+      "formula_name": "SULTAN WHITE Blend Fresh Lift 090",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "SULTAN WHITE",
+          "catalog_code": "5891",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 60
+        },
+        {
+          "brand": "Parfarome",
+          "material": "clean musk accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 28
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 12
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        6.0,
+        2.8,
+        1.2
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-091",
+      "formula_name": "MELATI KRATON Blend Warm Foundation 091",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "MELATI KRATON",
+          "catalog_code": "22476",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 45
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 35
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        4.5,
+        2.0,
+        3.5
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-092",
+      "formula_name": "AVRILLIA ROSE Blend Warm Foundation 092",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "AVRILLIA ROSE",
+          "catalog_code": "1774",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 45
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 35
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        4.5,
+        2.0,
+        3.5
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-093",
+      "formula_name": "ALIEN LINA Blend Warm Foundation 093",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "ALIEN LINA",
+          "catalog_code": "4526",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 45
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 35
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        4.5,
+        2.0,
+        3.5
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-094",
+      "formula_name": "NADINIA REHA Blend Warm Foundation 094",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "NADINIA REHA",
+          "catalog_code": "3254B",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 45
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 35
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        4.5,
+        2.0,
+        3.5
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-095",
+      "formula_name": "LOVELY PARKER Blend Warm Foundation 095",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "LOVELY PARKER",
+          "catalog_code": "1100",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 45
+        },
+        {
+          "brand": "LUZI",
+          "material": "powdery iris accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 35
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        4.5,
+        2.0,
+        3.5
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-096",
+      "formula_name": "ROSALIO LV Blend Warm Foundation 096",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "ROSALIO LV",
+          "catalog_code": "23477",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 45
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft white floral accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 35
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        4.5,
+        2.0,
+        3.5
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-097",
+      "formula_name": "QUEEN TAYLOR PREMIO Blend Warm Foundation 097",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "QUEEN TAYLOR PREMIO",
+          "catalog_code": "23266",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 45
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft white floral accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 35
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        4.5,
+        2.0,
+        3.5
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-098",
+      "formula_name": "RED BAKKA FLUSH Blend Warm Foundation 098",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "RED BAKKA FLUSH",
+          "catalog_code": "64841",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 45
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft white floral accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 35
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        4.5,
+        2.0,
+        3.5
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-099",
+      "formula_name": "V CHANELIA Blend Warm Foundation 099",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "V CHANELIA",
+          "catalog_code": "2220",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 45
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft white floral accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 35
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        4.5,
+        2.0,
+        3.5
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    },
+    {
+      "id": "BIB-100",
+      "formula_name": "KATY ROYAL Blend Warm Foundation 100",
+      "family": "floral",
+      "formula_origin": "new_experimental_blend_not_official_supplier_formula",
+      "claimed_rank": null,
+      "validated_by_sensory_panel": false,
+      "ingredients": [
+        {
+          "brand": "Macbrame",
+          "material": "KATY ROYAL",
+          "catalog_code": "14092",
+          "catalog_verification": "public_catalog_verified",
+          "weight_percent_in_concentrate": 45
+        },
+        {
+          "brand": "Parfarome",
+          "material": "sandalwood accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 20
+        },
+        {
+          "brand": "LUZI",
+          "material": "soft white floral accord",
+          "catalog_code": null,
+          "catalog_verification": "aroma_requirement_only_NO_PRODUCT_SKU_VERIFIED",
+          "weight_percent_in_concentrate": 35
+        }
+      ],
+      "concentrate_total_percent": 100,
+      "reference_batch_concentrate_grams": 10,
+      "formulation_weights_grams": [
+        4.5,
+        2.0,
+        3.5
+      ],
+      "supplier_availability": "Macbrame exact public catalogue code verified; LUZI/Parfarome slots require vendor-confirmed matched SKU and full safety documents",
+      "dilution_status": "NOT_SET; requires verified IFRA Cat.4 certificates and full combined-formula safety assessment",
+      "safety_status": "NOT_IFRA_EVALUATED_NOT_SKIN_READY",
+      "sources": [
+        "https://macbrame.com/",
+        "https://parfarome.com/parfarome/catalog/",
+        "https://c2ccertified.org/certified-products/c2c-002429",
+        "https://ifrafragrance.org/using-the-standards"
+      ],
+      "performance_claim": "untested hypothetical blending candidate; best not evidenced"
+    }
+  ]
+}

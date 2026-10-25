@@ -1,7 +1,7 @@
 # 📋 Product Requirements Document (PRD)
 # Parfume Creator — AI-Powered Perfume Formulation App
 
-**Version:** 1.1.0  
+**Version:** 1.2.0
 **Date:** 2026-10-23  
 **Platform:** Android (Jetpack Compose)  
 **Paradigm:** Local-First / Local AI dengan Internet Fallback Opt-In  
@@ -188,6 +188,18 @@ Note Breakdown: Top/Middle/Base masing-masing sebagai % dari total fragrance
 Berdasarkan fragrance family bahan aroma, sistem menjumlahkan bobot seluruh subfamily pada 4 sumbu FLORAL, WOODY, ORIENTAL, FRESH. Sumbu dengan total terbesar menjadi primary; dominant subfamily harus berada pada sumbu tersebut. Pelarut tidak masuk skor. Formula kosong atau hanya pelarut tidak memiliki arah olfaktif. Metadata family katalog merupakan indikasi, bukan hasil pengujian aroma.
 
 ---
+
+### FR-05A: Library Template Resep Natural dan Bibit
+
+**Prioritas:** P0
+
+Menu Formula dan Pengaturan menyediakan Template Resep: 100 studi natural NAT-001–NAT-100 dan 100 studi bibit BIB-001–BIB-100 dari JSON pengguna, ditambah 32 template lama/starter. Nama/ID sumber, keluarga aroma asli, komposisi dan provenance dipertahankan. Pencarian mencakup resep, ID, bahan, brand dan kode supplier; filter kategori/aroma memiliki jumlah dinamis.
+
+Preview menampilkan persen massa, gram referensi/target, tautan sumber dan status eksperimental. Semua resep baru adalah konsentrat 100% tanpa pelarut, bukan produk siap dipakai di kulit. Aplikasi tidak menentukan dilusi aman atau mengesahkan klaim penghargaan/SKU dari file.
+
+Pencocokan otomatis hanya berdasarkan identitas unik, tipe dan brand. EO adalah alias essential oil; grade FCF/absolute/botanical tetap dibedakan. Accord LUZI/Parfarome tanpa SKU wajib dipilih dari katalog nyata. Bahan belum tersedia dapat dipetakan secara eksplisit ke bahan katalog sesuai tipe/brand/peran pelarut; ini merupakan adaptasi yang wajib disetujui dan dicatat dalam notes. Tidak ada pembuatan produk fiktif atau impor parsial.
+
+Penggunaan resep memvalidasi seluruh ID katalog, jumlah, total batch (toleransi 0,01 g), konsentrasi dan kesesuaian peran bahan melalui kalkulator bersama sebelum mengganti draft. Batal/gagal mempertahankan draft lama; sukses tidak otomatis menyimpan. Parsing aset berjalan pada IO, file invalid ditolak utuh dengan error terlihat, sedangkan sumber valid lain tetap tersedia.
 
 ### FR-06: Kalkulasi SPL & Konsentrasi
 

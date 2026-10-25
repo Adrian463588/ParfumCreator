@@ -176,7 +176,14 @@ fun AppNavigation(
             composable(Screen.Settings.route) {
                 SettingsScreen(
                     viewModel = settingsViewModel,
-                    onNavigateBack = { navController.popBackStack() }
+                    onNavigateBack = { navController.popBackStack() },
+                    onOpenTemplates = {
+                        formulaViewModel.showTemplatesDialog(true)
+                        navController.navigate(Screen.Formula.route) {
+                            popUpTo(navController.graph.findStartDestination().id)
+                            launchSingleTop = true
+                        }
+                    }
                 )
             }
         }

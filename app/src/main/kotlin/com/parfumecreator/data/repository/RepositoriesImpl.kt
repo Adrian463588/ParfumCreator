@@ -630,20 +630,23 @@ class RagRepositoryImpl @Inject constructor(
 
         val templates = formulaTemplateLoader.getTemplates().map { template ->
             val items = template.ingredients.joinToString("; ") { item ->
-                "${item.name} ${item.amount} ${item.unit}, ${item.type}, ${item.noteType}, ${item.fragranceFamily}"
+                "${item.name} ${item.amount} ${item.unit}, ${item.type}, brand ${item.brand.orEmpty()}" +
+                    if (item.requiresSelection) ", BELUM ADA SKU TERVERIFIKASI; wajib dipilih pengguna" else ""
             }
             val searchableItems = template.ingredients
                 .filterNot { isDiluentName(it.name) }
                 .joinToString(" ") { item ->
-                    "${item.name} ${item.type} ${item.noteType} ${item.fragranceFamily}"
+                    "${item.name} ${item.type} ${item.brand.orEmpty()} ${item.catalogCode.orEmpty()}"
                 }
             CatalogCandidate(
                 sourceType = SourceType.TEMPLATE,
-                sourceName = TEMPLATE_SOURCE,
-                sourceUri = "asset://data/formula_templates.json#template-${template.id}",
-                text = "Template formula parfum ${template.id}: ${template.name}; kategori ${template.category}; family ${template.fragranceFamily}; konsentrasi ${template.concentrationPct}% ${template.concentrationType}; deskripsi ${template.description}; bahan dataset: $items.",
+                sourceName = template.sourceFile,
+                sourceUri = "asset://data/${template.sourceFile}#${template.sourceId ?: "template-${template.id}"}",
+                text = "Template formula parfum ${template.sourceId ?: template.id}: ${template.name}; kategori ${template.category}; family sumber ${template.familyLabel}; konsentrasi ${template.concentrationPct}% massa; deskripsi ${template.description}; bahan dataset: $items.",
                 searchText = listOf(
                     template.name,
+                    template.sourceId.orEmpty(),
+                    template.familyLabel,
                     template.category,
                     template.fragranceFamily.name,
                     template.fragranceFamily.displayName,
