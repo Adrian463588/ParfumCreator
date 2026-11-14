@@ -2,18 +2,20 @@
 
 Android companion for creating perfumes from natural aromatics and catalog fragrance oils, with local document retrieval and optional automatic internet fallback.
 
-Version **1.2.0** · Android 8.0+ (API 26) · Kotlin / Jetpack Compose / Material 3
+Version **1.3.0** · Android 8.0+ (API 26) · Kotlin / Jetpack Compose / Material 3
 
 ## Unduh Aplikasi & Rilis (Downloads & Releases)
 
 Unduh build APK versi terbaru atau telusuri riwayat versi:
-- **Versi Terbaru (Latest Release)**: [v1.2.0](https://github.com/Adrian463588/ParfumCreator/releases/tag/v1.2.0)
-- **Unduh Langsung APK**: [ParfumCreator-v1.2.0-debug.apk](https://github.com/Adrian463588/ParfumCreator/releases/download/v1.2.0/app-debug.apk)
+- **Versi Terbaru (Latest Release)**: [v1.3.0](https://github.com/Adrian463588/ParfumCreator/releases/tag/v1.3.0)
+- **Unduh Langsung APK Debug**: [ParfumCreator-v1.3.0-debug.apk](https://github.com/Adrian463588/ParfumCreator/releases/download/v1.3.0/app-debug.apk)
+- **Unduh Langsung APK Release (Hardened & Minified)**: [ParfumCreator-v1.3.0-release.apk](https://github.com/Adrian463588/ParfumCreator/releases/download/v1.3.0/app-release.apk)
 - **Semua Rilis & Riwayat Versi**: [GitHub Releases](https://github.com/Adrian463588/ParfumCreator/releases)
 
 ### Riwayat Versi (Release History)
 | Versi | Tanggal | Catatan Rilis | Link Unduh |
 | --- | --- | --- | --- |
+| **v1.3.0** | 2026-11-14 | Mobile App Hardening (OWASP MASVS-RESILIENCE), Anti-Tampering, Android Keystore AES-256 GCM, R8 obfuscation, dan Headless Android Test Harness | [Unduh APK v1.3.0 Debug](https://github.com/Adrian463588/ParfumCreator/releases/download/v1.3.0/app-debug.apk) / [Release](https://github.com/Adrian463588/ParfumCreator/releases/download/v1.3.0/app-release.apk) |
 | **v1.2.0** | 2026-10-26 | Integrasi 200 template resep (100 natural & 100 bibit sintetis), dynamic recipe browser, preview konsentrat, manual binding & batch scaling | [Unduh APK v1.2.0](https://github.com/Adrian463588/ParfumCreator/releases/download/v1.2.0/app-debug.apk) |
 | **v1.1.0** | 2026-10-23 | Peningkatan RAG lokal, opt-in internet fallback otomatis, audit formula katalog | [Detail Rilis v1.1.0](https://github.com/Adrian463588/ParfumCreator/releases/tag/v1.1.0) |
 | **v1.0.0** | 2026-08-20 | Rilis dasar ParfumCreator dengan kalkulator formula & AI companion | [Detail Rilis v1.0.0](https://github.com/Adrian463588/ParfumCreator/releases/tag/v1.0.0) |

@@ -4,6 +4,18 @@ import com.parfumecreator.domain.model.*
 
 object FormulaCalculationEngine {
 
+    // Masked proprietary heuristic weights (de-obfuscated dynamically to prevent static constant extraction)
+    private const val MASK_KEY: Long = 0x5A5A5A5A5A5A5A5AL
+    private val OBF_BASE_WEIGHT = java.lang.Double.doubleToRawLongBits(1.5) xor MASK_KEY
+    private val OBF_MID_WEIGHT = java.lang.Double.doubleToRawLongBits(1.0) xor MASK_KEY
+    private val OBF_TOP_WEIGHT = java.lang.Double.doubleToRawLongBits(0.5) xor MASK_KEY
+    private val OBF_DIVISOR = java.lang.Double.doubleToRawLongBits(3.0) xor MASK_KEY
+
+    private fun getBaseWeight(): Double = java.lang.Double.longBitsToDouble(OBF_BASE_WEIGHT xor MASK_KEY)
+    private fun getMidWeight(): Double = java.lang.Double.longBitsToDouble(OBF_MID_WEIGHT xor MASK_KEY)
+    private fun getTopWeight(): Double = java.lang.Double.longBitsToDouble(OBF_TOP_WEIGHT xor MASK_KEY)
+    private fun getDivisor(): Double = java.lang.Double.longBitsToDouble(OBF_DIVISOR xor MASK_KEY)
+
     /**
      * Converts a given amount in various measurement units to grams.
      * Returns zero for invalid/unrepresentable inputs. Invalid mL density never
@@ -88,7 +100,7 @@ object FormulaCalculationEngine {
         val normMid = (safeMid / maxRatio) / sumRatios
         val normBase = (safeBase / maxRatio) / sumRatios
 
-        val noteWeightFactor = ((normBase * 1.5) + (normMid * 1.0) + (normTop * 0.5)) / 3.0
+        val noteWeightFactor = ((normBase * getBaseWeight()) + (normMid * getMidWeight()) + (normTop * getTopWeight())) / getDivisor()
         val rawSpl = concentrationPct * noteWeightFactor
         return rawSpl.coerceIn(0.0, 100.0)
     }

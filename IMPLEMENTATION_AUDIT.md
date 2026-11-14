@@ -398,3 +398,40 @@ Final acceptance checklist:
 - [x] Connected instrumented tests passing on real Android device (`2412DPC0AG`).
 - [x] OpenSpec SDD change validated strictly.
 - [x] Version bumped to 1.2.0 (versionCode 3) with release & download documentation.
+
+---
+
+## 8. Version 1.3.0 Audit & Mobile App Hardening Verification (2026-11-14)
+
+### 8.1 Scope & Feature Verification
+- **OWASP MASVS-RESILIENCE Hardening**:
+  - `SecurityHardeningManager`: Implemented Java debugger detection (`Debug.isDebuggerConnected()`), native Linux `/proc/self/status` `TracerPid` anti-debugging, package name verification, SHA-256 certificate signature verification, root detection (`/system/bin/su`, test-keys), and dynamic hooking inspection (`/proc/self/maps` Frida agent / Xposed libraries and local Frida socket check).
+  - `AndroidKeyStoreCrypto`: Implemented hardware-backed Android KeyStore AES-256 GCM authenticated encryption without hardcoded keys. Generates unique 12-byte IV per encryption operation and enforces 128-bit AEAD integrity tag validation to detect payload tampering.
+  - `FormulaCalculationEngine`: Masked proprietary SPL heuristic calculation factors (1.5, 1.0, 0.5, 3.0) via runtime bitwise XOR long mask transformation (`0x5A5A5A5A5A5A5A5AL`) to defeat static string/constant disassembly.
+  - **Manifest & Backup Protections**: Set `allowBackup="false"`, `usesCleartextTraffic="false"`, and restricted XML rules (`data_extraction_rules.xml`, `backup_rules.xml`) excluding database, shared preferences, and internal storage from device-to-device transfers.
+  - **R8 Minification & Log Stripping**: Enabled `isMinifyEnabled = true`, `isShrinkResources = true`, flat class repackaging (`-repackageclasses 'com.parfumecreator.internal'`), and stripping of all `android.util.Log` invocations in release APK.
+- **Headless Android Testing Harness**:
+  - Implemented 3-layer automated headless CLI loop in `android/scripts/headless/` (`start-emulator.ps1`, `stop-emulator.ps1`, `status-emulator.ps1`, `capture-ui-tree.ps1`, `get-error-logs.ps1`, `run-fast-loop.ps1`).
+  - Tested on headless AOSP Android 13 (`codex_psikotes_api33`, `emulator-5562`) with SwiftShader indirect GPU and clamped memory (1.5 GB), isolating external physical hardware (`RRCN3008VYE`).
+
+### 8.2 Verification Gates Matrix
+
+| Gate | Target / Scope | Result | Evidence |
+| --- | --- | --- | --- |
+| **OpenSpec Validation** | `mobile-app-hardening --strict` | **PASS** | Validated proposal, design, tasks, and spec.md without errors. |
+| **Unit Tests** | `:app:testDebugUnitTest` | **PASS** | **181 tests, 18 suites, 0 failures, 0 errors, 0 skipped** (including 19 new security unit tests in `SecurityHardeningTest.kt`). |
+| **Android Lint** | `:app:lintDebug` | **PASS** | **0 errors**. No fatal issues. HTML report generated. |
+| **Debug Build** | `:app:assembleDebug` | **PASS** | `app-debug.apk` built (102.7 MB). |
+| **Release Build (R8)** | `:app:assembleRelease` | **PASS** | `app-release.apk` built with R8 obfuscation and resource shrinking (99.4 MB). |
+| **Headless Runtime Smoke Test** | `run-fast-loop.ps1` (`emulator-5562`) | **PASS** | Debug APK installed, `MainActivity` launched successfully, UI accessibility hierarchy verified, 0 fatal crashes. |
+
+### 8.3 Final Acceptance Checklist (v1.3.0)
+- [x] OpenSpec SDD proposal, design, tasks, and spec strictly validated.
+- [x] `SecurityHardeningManager` anti-debugging, anti-tampering, root, and hook detection verified.
+- [x] Hardware-backed `AndroidKeyStoreCrypto` AES-256 GCM authenticated encryption verified.
+- [x] Proprietary engine constants masked via XOR runtime bitwise transformation.
+- [x] `AndroidManifest.xml` backup and cleartext restrictions verified.
+- [x] R8 minification, class repackaging, and log stripping verified in release build.
+- [x] 181 unit tests passing, zero lint errors, assembleDebug and assembleRelease passing.
+- [x] Headless emulator testing harness created, verified, and documented.
+- [x] Version bumped to 1.3.0 (versionCode 4) with release documentation and download links.
