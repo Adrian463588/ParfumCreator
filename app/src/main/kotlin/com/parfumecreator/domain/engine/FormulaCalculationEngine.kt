@@ -1,5 +1,6 @@
 package com.parfumecreator.domain.engine
 
+import com.parfumecreator.core.nativebridge.NativeSecurityBridge
 import com.parfumecreator.domain.model.*
 
 object FormulaCalculationEngine {
@@ -58,11 +59,7 @@ object FormulaCalculationEngine {
      * Calculates the fragrance concentration percentage.
      */
     fun calculateConcentration(fragranceWeightG: Double, totalWeightG: Double): Double {
-        if (!fragranceWeightG.isFinite() || !totalWeightG.isFinite() || totalWeightG <= 0.0 || fragranceWeightG <= 0.0) {
-            return 0.0
-        }
-        val pct = (fragranceWeightG / totalWeightG) * 100.0
-        return pct.coerceIn(0.0, 100.0)
+        return NativeSecurityBridge.calculateConcentration(fragranceWeightG, totalWeightG)
     }
 
     /**
@@ -87,22 +84,7 @@ object FormulaCalculationEngine {
         middleRatio: Double,
         baseRatio: Double
     ): Double {
-        if (!concentrationPct.isFinite() || concentrationPct <= 0.0) return 0.0
-
-        val safeTop = if (topRatio.isFinite() && topRatio >= 0.0) topRatio else 0.0
-        val safeMid = if (middleRatio.isFinite() && middleRatio >= 0.0) middleRatio else 0.0
-        val safeBase = if (baseRatio.isFinite() && baseRatio >= 0.0) baseRatio else 0.0
-
-        val maxRatio = maxOf(safeTop, safeMid, safeBase)
-        if (maxRatio == 0.0) return 0.0
-        val sumRatios = safeTop / maxRatio + safeMid / maxRatio + safeBase / maxRatio
-        val normTop = (safeTop / maxRatio) / sumRatios
-        val normMid = (safeMid / maxRatio) / sumRatios
-        val normBase = (safeBase / maxRatio) / sumRatios
-
-        val noteWeightFactor = ((normBase * getBaseWeight()) + (normMid * getMidWeight()) + (normTop * getTopWeight())) / getDivisor()
-        val rawSpl = concentrationPct * noteWeightFactor
-        return rawSpl.coerceIn(0.0, 100.0)
+        return NativeSecurityBridge.calculateSpl(concentrationPct, topRatio, middleRatio, baseRatio)
     }
 
     /**

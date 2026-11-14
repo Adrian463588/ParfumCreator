@@ -3,6 +3,10 @@
 ## 1.3.0 — 2026-11-14
 
 - Implement Mobile App Hardening aligned with OWASP MASVS-RESILIENCE for 100% offline security.
+- Add Android NDK C++17 shared library (`libparfume_core.so`) via CMake 3.22+ compiling core perfumery math (SPL & concentration) into stripped machine code across `arm64-v8a`, `armeabi-v7a`, `x86`, and `x86_64`.
+- Implement native anti-debugging with POSIX `ptrace(PTRACE_TRACEME, ...)` and direct kernel syscall parsing of `/proc/self/status` `TracerPid`.
+- Implement low-level hooking defense via direct POSIX `/proc/self/maps` scanning for Frida, Xposed, Substrate, and Cydia agents.
+- Provide `NativeSecurityBridge` with dual-mode architecture: native JNI execution on Android runtime and seamless Kotlin fallback in host JVM unit test runners.
 - Add `SecurityHardeningManager` covering runtime Java & native ptrace anti-debugging (`TracerPid`), package ID integrity, SHA-256 certificate signature verification, root detection, and dynamic hooking defense (`/proc/self/maps` Frida/Xposed scanning and socket detection).
 - Add `AndroidKeyStoreCrypto` for hardware-backed AES-256 GCM authenticated encryption with dynamic IV and 128-bit AEAD integrity tag validation against tampering.
 - Mask proprietary SPL calculation factors via runtime XOR bitwise transformation in `FormulaCalculationEngine`.

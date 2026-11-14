@@ -39,6 +39,12 @@
 -keep class com.parfumecreator.core.security.AndroidKeyStoreCrypto { *; }
 -keep class com.parfumecreator.core.security.SecurityHardeningManager { *; }
 
+# JNI & Native Security Bridge
+-keepclasseswithmembernames,includedescriptorclasses class * {
+    native <methods>;
+}
+-keep class com.parfumecreator.core.nativebridge.** { *; }
+
 # Coroutines & Dispatchers
 -keepnames class kotlinx.coroutines.internal.MainDispatcherFactory {}
 -keepnames class kotlinx.coroutines.CoroutineExceptionHandler {}

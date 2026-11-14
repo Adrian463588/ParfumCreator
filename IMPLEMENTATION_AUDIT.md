@@ -405,11 +405,12 @@ Final acceptance checklist:
 
 ### 8.1 Scope & Feature Verification
 - **OWASP MASVS-RESILIENCE Hardening**:
+  - `NativeSecurityBridge` & C++ NDK Engine (`libparfume_core.so`): Built via CMake 3.22+ with `-std=c++17`, `-fvisibility=hidden`, `-fvisibility-inlines-hidden`, `-O3`, and symbol stripping. Compiles proprietary fragrance math (SPL heuristic and concentration) into native machine code across all 4 Android architectures (`arm64-v8a`, `armeabi-v7a`, `x86`, `x86_64`). Includes native anti-debugging with `ptrace(PTRACE_TRACEME, ...)` and direct POSIX `/proc/self/status` TracerPid / `/proc/self/maps` hook scanning.
   - `SecurityHardeningManager`: Implemented Java debugger detection (`Debug.isDebuggerConnected()`), native Linux `/proc/self/status` `TracerPid` anti-debugging, package name verification, SHA-256 certificate signature verification, root detection (`/system/bin/su`, test-keys), and dynamic hooking inspection (`/proc/self/maps` Frida agent / Xposed libraries and local Frida socket check).
   - `AndroidKeyStoreCrypto`: Implemented hardware-backed Android KeyStore AES-256 GCM authenticated encryption without hardcoded keys. Generates unique 12-byte IV per encryption operation and enforces 128-bit AEAD integrity tag validation to detect payload tampering.
-  - `FormulaCalculationEngine`: Masked proprietary SPL heuristic calculation factors (1.5, 1.0, 0.5, 3.0) via runtime bitwise XOR long mask transformation (`0x5A5A5A5A5A5A5A5AL`) to defeat static string/constant disassembly.
+  - `FormulaCalculationEngine`: Masked proprietary SPL heuristic calculation factors (1.5, 1.0, 0.5, 3.0) via runtime bitwise XOR long mask transformation (`0x5A5A5A5A5A5A5A5AL`) and delegates to `NativeSecurityBridge`.
   - **Manifest & Backup Protections**: Set `allowBackup="false"`, `usesCleartextTraffic="false"`, and restricted XML rules (`data_extraction_rules.xml`, `backup_rules.xml`) excluding database, shared preferences, and internal storage from device-to-device transfers.
-  - **R8 Minification & Log Stripping**: Enabled `isMinifyEnabled = true`, `isShrinkResources = true`, flat class repackaging (`-repackageclasses 'com.parfumecreator.internal'`), and stripping of all `android.util.Log` invocations in release APK.
+  - **R8 Minification & Log Stripping**: Enabled `isMinifyEnabled = true`, `isShrinkResources = true`, flat class repackaging (`-repackageclasses 'com.parfumecreator.internal'`), JNI keep rules, and stripping of all `android.util.Log` invocations in release APK.
 - **Headless Android Testing Harness**:
   - Implemented 3-layer automated headless CLI loop in `android/scripts/headless/` (`start-emulator.ps1`, `stop-emulator.ps1`, `status-emulator.ps1`, `capture-ui-tree.ps1`, `get-error-logs.ps1`, `run-fast-loop.ps1`).
   - Tested on headless AOSP Android 13 (`codex_psikotes_api33`, `emulator-5562`) with SwiftShader indirect GPU and clamped memory (1.5 GB), isolating external physical hardware (`RRCN3008VYE`).
@@ -418,20 +419,23 @@ Final acceptance checklist:
 
 | Gate | Target / Scope | Result | Evidence |
 | --- | --- | --- | --- |
-| **OpenSpec Validation** | `mobile-app-hardening --strict` | **PASS** | Validated proposal, design, tasks, and spec.md without errors. |
-| **Unit Tests** | `:app:testDebugUnitTest` | **PASS** | **181 tests, 18 suites, 0 failures, 0 errors, 0 skipped** (including 19 new security unit tests in `SecurityHardeningTest.kt`). |
+| **OpenSpec Validation** | `mobile-app-hardening` & `native-ndk-hardening` | **PASS** | Validated proposals, designs, tasks, and spec.md strictly without errors. |
+| **Unit Tests** | `:app:testDebugUnitTest` | **PASS** | **188 tests, 19 suites, 0 failures, 0 errors, 0 skipped** (including 7 new native bridge tests in `NativeSecurityBridgeTest.kt` and 19 security tests in `SecurityHardeningTest.kt`). |
 | **Android Lint** | `:app:lintDebug` | **PASS** | **0 errors**. No fatal issues. HTML report generated. |
-| **Debug Build** | `:app:assembleDebug` | **PASS** | `app-debug.apk` built (102.7 MB). |
-| **Release Build (R8)** | `:app:assembleRelease` | **PASS** | `app-release.apk` built with R8 obfuscation and resource shrinking (99.4 MB). |
+| **Debug Build** | `:app:assembleDebug` | **PASS** | `app-debug.apk` built with all 4 ABI CMake `.so` targets (102.7 MB). |
+| **Release Build (R8 & NDK)** | `:app:assembleRelease` | **PASS** | `app-release.apk` built with stripped C++ machine code, R8 obfuscation, and resource shrinking (99.5 MB). |
 | **Headless Runtime Smoke Test** | `run-fast-loop.ps1` (`emulator-5562`) | **PASS** | Debug APK installed, `MainActivity` launched successfully, UI accessibility hierarchy verified, 0 fatal crashes. |
 
 ### 8.3 Final Acceptance Checklist (v1.3.0)
-- [x] OpenSpec SDD proposal, design, tasks, and spec strictly validated.
+- [x] OpenSpec SDD proposal, design, tasks, and spec strictly validated for both `mobile-app-hardening` and `native-ndk-hardening`.
+- [x] Android NDK C++17 shared library (`libparfume_core.so`) built via CMake across arm64-v8a, armeabi-v7a, x86, x86_64.
+- [x] Native anti-debugging (`ptrace`, `/proc/self/status` TracerPid) and low-level maps scanning implemented.
+- [x] `NativeSecurityBridge` dual-mode fallback architecture ensuring 100% velocity on host JVM test runners.
 - [x] `SecurityHardeningManager` anti-debugging, anti-tampering, root, and hook detection verified.
 - [x] Hardware-backed `AndroidKeyStoreCrypto` AES-256 GCM authenticated encryption verified.
 - [x] Proprietary engine constants masked via XOR runtime bitwise transformation.
 - [x] `AndroidManifest.xml` backup and cleartext restrictions verified.
 - [x] R8 minification, class repackaging, and log stripping verified in release build.
-- [x] 181 unit tests passing, zero lint errors, assembleDebug and assembleRelease passing.
+- [x] 188 unit tests passing, zero lint errors, assembleDebug and assembleRelease passing.
 - [x] Headless emulator testing harness created, verified, and documented.
 - [x] Version bumped to 1.3.0 (versionCode 4) with release documentation and download links.

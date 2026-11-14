@@ -5,6 +5,7 @@ import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Debug
 import com.parfumecreator.BuildConfig
+import com.parfumecreator.core.nativebridge.NativeSecurityBridge
 import java.io.File
 import java.io.IOException
 import java.net.InetSocketAddress
@@ -77,6 +78,10 @@ object SecurityHardeningManager {
         }
 
         // 2. Native ptrace tracer detection
+        if (NativeSecurityBridge.checkAntiDebug()) {
+            return true
+        }
+
         if (statusFile.exists() && statusFile.canRead()) {
             try {
                 statusFile.useLines { lines ->
@@ -196,6 +201,11 @@ object SecurityHardeningManager {
         checkPort: Boolean = false,
         port: Int = FRIDA_DEFAULT_PORT
     ): Boolean {
+        // 0. Native C++ maps scanning
+        if (NativeSecurityBridge.checkHooking()) {
+            return true
+        }
+
         // 1. Inspect loaded libraries in memory maps
         if (mapsFile.exists() && mapsFile.canRead()) {
             try {
