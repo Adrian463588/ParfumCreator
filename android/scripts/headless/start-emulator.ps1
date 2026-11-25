@@ -2,12 +2,12 @@
 .SYNOPSIS
     Starts an Android Virtual Device in ultra-lightweight headless CLI mode (~1.5GB RAM).
 .PARAMETER AvdName
-    Name of the AVD (default: "codex_psikotes_api33").
+    Name of the AVD (default: $env:ANDROID_AVD_NAME or "parfume_creator_api33").
 .PARAMETER MemoryMb
     RAM limit for the VM in MB (default: 1536).
 #>
 param(
-    [string]$AvdName = "codex_psikotes_api33",
+    [string]$AvdName = $(if ($env:ANDROID_AVD_NAME) { $env:ANDROID_AVD_NAME } else { "parfume_creator_api33" }),
     [int]$MemoryMb = 1536,
     [int]$TimeoutSeconds = 120
 )

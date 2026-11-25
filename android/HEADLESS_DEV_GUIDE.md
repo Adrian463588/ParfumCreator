@@ -33,7 +33,7 @@ This guide describes how to operate the 3-layer autonomous testing and developme
 
 The headless AOSP AVD runs with resource-optimized parameters:
 ```powershell
-emulator -avd codex_psikotes_api33 -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect -memory 1536
+emulator -avd parfume_creator_api33 -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect -memory 1536
 ```
 - **RAM footprint**: ~1.5 GB RAM (down from 7 GB in GUI mode).
 - **CPU idle**: < 1%.

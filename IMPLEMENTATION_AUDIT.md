@@ -130,7 +130,7 @@ Bagian ini adalah status teknis terbaru untuk chatbot perfumery dan mengoreksi k
 ### Verification run 2026-08-25
 
 - `./gradlew.bat testDebugUnitTest lintDebug assembleDebug`: **PASS**. Lint report: `app/build/reports/lint-results-debug.html`.
-- Final APK installation with `adb -s RRCN3008VYE install -r -d`: **Success**. Device: Samsung `SM-G988B`, Android 13.
+- Final APK installation with `adb -s <redacted-device-serial> install -r -d`: **Success**. Device: Samsung `SM-G988B`, Android 13.
 - Prior functional device smoke on the same device/build line verified novel formula, knowledge answer, catalog recommendation, and template formula. The final UI retest was not claimed because an unrelated Android permission dialog for `Quran Plus` covered the foreground window; no permission or data of that app was changed.
 - Local model acceptance remains separate: the selected Gemma E2B artifact previously inspected was incomplete, so the app must continue to report local LLM `UNAVAILABLE` until the exact final file passes the byte-size/name validation.
 
@@ -154,7 +154,7 @@ Bagian ini adalah status teknis terbaru untuk chatbot perfumery dan mengoreksi k
 
 - `./gradlew.bat testDebugUnitTest lintDebug assembleDebug`: **PASS** (`BUILD SUCCESSFUL`, 62 actionable tasks); report lint: `app/build/reports/lint-results-debug.html`.
 - Endpoint Wikimedia yang dipakai adapter diverifikasi dari host dengan HTTPS `200` dan JSON result page; tidak ada scraping arbitrary atau unggah dokumen lokal.
-- APK terbaru dipasang ke Samsung `RRCN3008VYE` dengan `adb install -r -d`: **Success**. Activity foreground terverifikasi dan logcat 300 baris terakhir tidak menemukan fatal exception `com.parfumecreator`.
+- APK terbaru dipasang ke Samsung `<redacted-device-serial>` dengan `adb install -r -d`: **Success**. Activity foreground terverifikasi dan logcat 300 baris terakhir tidak menemukan fatal exception `com.parfumecreator`.
 - Smoke UI final menampilkan bento `AI companion parfum`, `Local-first • Local RAG`, tile `Dokumen`, `Internet`, `Inference`, badge `RAG`, dan input companion. Query knowledge di perangkat tetap memilih evidence lokal ketika cukup; web fallback tetap bersifat kondisional.
 - APK debug SHA-256: `8B642748A7AC903B8A6E5FB56E7A1BA08CC02F63AA9DDEECDC6CE3FC5B3FC10D`.
 
@@ -258,7 +258,7 @@ Verification after the repair:
 - `./gradlew.bat :app:assembleDebug` — **PASS**.
 - `./gradlew.bat :app:connectedDebugAndroidTest` — **PASS**, 3 tests on
   Samsung `SM-G988B`, Android 13, including the new CDN allowlist assertion.
-- APK installed with `adb -s RRCN3008VYE install -r -d` — **Success**; launch
+- APK installed with `adb -s <redacted-device-serial> install -r -d` — **Success**; launch
   and foreground activity were verified with no filtered fatal exception.
 - APK SHA-256: `5C7BFA06091EAEFD37183CFCA95EC0CEB18CB87ADFD050DBA0A180B63CF35742`.
 
@@ -413,7 +413,7 @@ Final acceptance checklist:
   - **R8 Minification & Log Stripping**: Enabled `isMinifyEnabled = true`, `isShrinkResources = true`, flat class repackaging (`-repackageclasses 'com.parfumecreator.internal'`), JNI keep rules, and stripping of all `android.util.Log` invocations in release APK.
 - **Headless Android Testing Harness**:
   - Implemented 3-layer automated headless CLI loop in `android/scripts/headless/` (`start-emulator.ps1`, `stop-emulator.ps1`, `status-emulator.ps1`, `capture-ui-tree.ps1`, `get-error-logs.ps1`, `run-fast-loop.ps1`).
-  - Tested on headless AOSP Android 13 (`codex_psikotes_api33`, `emulator-5562`) with SwiftShader indirect GPU and clamped memory (1.5 GB), isolating external physical hardware (`RRCN3008VYE`).
+  - Tested on headless AOSP Android 13 (`<local-aosp-api33-avd>`, `emulator-5562`) with SwiftShader indirect GPU and clamped memory (1.5 GB), isolating external physical hardware (`<redacted-device-serial>`).
 
 ### 8.2 Verification Gates Matrix
 
@@ -439,3 +439,24 @@ Final acceptance checklist:
 - [x] 188 unit tests passing, zero lint errors, assembleDebug and assembleRelease passing.
 - [x] Headless emulator testing harness created, verified, and documented.
 - [x] Version bumped to 1.3.0 (versionCode 4) with release documentation and download links.
+
+---
+
+## 9. Version 1.3.1 DevSecOps Audit & Public Release Verification (2026-11-25)
+
+### 9.1 Pre-Public DevSecOps Audit Findings & Hygiene Actions
+- **Secret & Credential Scan**: Scanned all 150 tracked files and all 5 historical commits for API tokens, private key blocks, keystore passwords, hardcoded host paths, and local workspace identifiers. Confirmed **0 leaked secrets, tokens, keys, or keystores** across the working tree and history.
+- **Identifier Sanitization**: Redacted personal ADB physical device serial occurrences in this audit log to `<redacted-device-serial>`, and replaced the unrelated hardcoded AVD name in `android/scripts/headless/start-emulator.ps1`, `android/HEADLESS_DEV_GUIDE.md`, `android/PROGRESS.md`, `openspec/changes/mobile-app-hardening/tasks.md`, and this audit file with `ANDROID_AVD_NAME` / `parfume_creator_api33` / `<local-aosp-api33-avd>`.
+- **Ignore Hardening**: Added root-wide `.gitignore` exclusions for `*.apk`, `*.aab`, `*.pem`, `*.p12`, `*.pfx`, `*.cer`, `*.key`, `google-services.json`, and `secrets.properties`.
+- **Dynamic Version Sync**: Updated `DownloadWorker.kt` and `InternetSearch.kt` outbound HTTP `User-Agent` strings to read `BuildConfig.VERSION_NAME` dynamically instead of hardcoded `1.0` / `1.1` values.
+
+### 9.2 Verification Gates Matrix (v1.3.1)
+
+| Gate | Target / Scope | Result | Evidence |
+| --- | --- | --- | --- |
+| **Unit Tests** | `:app:testDebugUnitTest` | **PASS** | **188 tests, 19 suites, 0 failures, 0 errors, 0 skipped** (`BUILD SUCCESSFUL`). |
+| **Android Lint** | `:app:lintDebug` | **PASS** | **0 errors, 86 warnings, 2 hints** (`app/build/reports/lint-results-debug.html`). Note: 3 `TrustAllX509TrustManager` warnings originate inside transitive library `bcpkix-jdk15to18-1.72.jar`, not application source. |
+| **Debug APK Build** | `:app:assembleDebug` | **PASS** | `versionCode` **5**, `versionName` **1.3.1** (`app/build/outputs/apk/debug/output-metadata.json`), native NDK C++17 `libparfume_core.so` built for all 4 ABIs. Size: **121,130,763 bytes**. SHA-256: `EF7817E25E67541F23831BB84272EEDA924F26859D5A6F294B317F28AD6C7C00`. |
+| **Connected Device Tests** | `:app:connectedDebugAndroidTest` | **NOT RUN** | No physical Android device or emulator was attached (`adb devices -l` returned empty) in this session. |
+
+Note: Real-device multi-gigabyte LiteRT-LM model downloads and hardware inference acceptance remain separate from compilation and host JVM unit test gates.

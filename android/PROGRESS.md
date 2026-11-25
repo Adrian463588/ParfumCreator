@@ -37,7 +37,7 @@ Audit trail of verification runs, test outputs, and system metrics.
   - Result: **BUILD SUCCESSFUL** with R8 full minification and resource shrinking.
   - Output APK: `app/build/outputs/apk/release/app-release.apk` (99.4 MB).
 - **Headless Emulator Smoke Test (`run-fast-loop.ps1`)**:
-  - Executed automated install and launch loop on `emulator-5562` (AVD `codex_psikotes_api33`, SwiftShader indirect GPU, 1.5GB RAM).
+  - Executed automated install and launch loop on `emulator-5562` (local AOSP API 33 AVD, SwiftShader indirect GPU, 1.5GB RAM).
   - Target verified: `MainActivity` successfully started without runtime crash.
   - Accessibility UI tree dumped via `capture-ui-tree.ps1` confirming Compose UI rendered (`Untitled Formulation`, `Total Berat: 0.00 g`, `Konsentrasi (w/w): 0.0%`).
   - Error logs extracted via `get-error-logs.ps1` confirmed zero exceptions/crashes.

@@ -19,6 +19,15 @@ downloaded_files/
 *.jks
 *.keystore
 keystore.properties
+*.apk
+*.aab
+*.pem
+*.p12
+*.pfx
+*.cer
+*.key
+google-services.json
+secrets.properties
 .env
 .env.*
 !.env.example

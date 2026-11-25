@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.3.1 - 2026-11-25
+
+- Perform pre-public DevSecOps audit across all tracked files and commit history (zero credential/key leaks confirmed).
+- Redact physical ADB device serial from audit records and replace unrelated hardcoded AVD name with configurable `ANDROID_AVD_NAME` / `parfume_creator_api33`.
+- Tighten `.gitignore` exclusions for APK/AAB binaries, certificates, keys, and local secret files.
+- Synchronize outbound HTTP `User-Agent` version strings dynamically with `BuildConfig.VERSION_NAME`.
+- Refresh `README.md` with top-of-page v1.3.1 release download links and publish public GitHub Release `v1.3.1` with verified Debug APK (`ParfumCreator-v1.3.1-debug.apk`).
+
 ## 1.3.0 — 2026-11-14
 
 - Implement Mobile App Hardening aligned with OWASP MASVS-RESILIENCE for 100% offline security.

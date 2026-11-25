@@ -18,5 +18,5 @@
 - [x] Run `:app:testDebugUnitTest` to verify all tests pass (181/181 passed).
 - [x] Run `:app:lintDebug` to verify zero lint errors.
 - [x] Run `:app:assembleDebug` and `:app:assembleRelease` to verify R8 bytecode minification and resource shrinking.
-- [x] Run connected tests on headless emulator `emulator-5562` (AVD `codex_psikotes_api33`, API 33).
+- [x] Run connected tests on headless emulator `emulator-5562` (local AOSP API 33 AVD).
 - [x] Update audit documentation, PRD, and changelog.

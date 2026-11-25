@@ -12,6 +12,7 @@ import androidx.work.CoroutineWorker
 import androidx.work.ForegroundInfo
 import androidx.work.WorkerParameters
 import androidx.work.workDataOf
+import com.parfumecreator.BuildConfig
 import com.parfumecreator.R
 import com.parfumecreator.data.local.dao.DownloadDao
 import dagger.hilt.EntryPoint
@@ -185,7 +186,7 @@ class DownloadWorker(
                     connectTimeout = CONNECT_TIMEOUT_MS
                     readTimeout = READ_TIMEOUT_MS
                     instanceFollowRedirects = false
-                    setRequestProperty("User-Agent", "ParfumeCreator/1.0 (Android; Mobile)")
+                    setRequestProperty("User-Agent", "ParfumeCreator/${BuildConfig.VERSION_NAME} (Android; Mobile)")
                     setRequestProperty("Accept", "*/*")
                     setRequestProperty("Accept-Encoding", "identity")
                     if (downloadedBytes > 0L) {

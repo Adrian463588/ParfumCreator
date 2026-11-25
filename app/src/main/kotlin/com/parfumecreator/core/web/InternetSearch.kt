@@ -4,6 +4,7 @@ import android.net.Uri
 import android.text.Html
 import android.util.Log
 import com.google.gson.JsonParser
+import com.parfumecreator.BuildConfig
 import com.parfumecreator.core.llm.PerfumeEvidenceSelector
 import com.parfumecreator.domain.model.WebSearchHit
 import kotlinx.coroutines.Dispatchers
@@ -435,6 +436,6 @@ class WikimediaInternetClient @Inject constructor() {
         const val MIN_REQUEST_INTERVAL_MS = 1_500L
         const val SEARCH_CACHE_TTL_MS = 24L * 60L * 60L * 1_000L
         const val PAGE_CACHE_TTL_MS = 24L * 60L * 60L * 1_000L
-        const val USER_AGENT = "ParfumeCreator/1.1 (https://github.com/Adrian463588/ParfumCreator)"
+        val USER_AGENT = "ParfumeCreator/${BuildConfig.VERSION_NAME} (https://github.com/Adrian463588/ParfumCreator)"
     }
 }

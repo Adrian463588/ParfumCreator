@@ -1,8 +1,8 @@
 # 📋 Product Requirements Document (PRD)
 # Parfume Creator — AI-Powered Perfume Formulation App
 
-**Version:** 1.2.0
-**Date:** 2026-10-23  
+**Version:** 1.3.1
+**Date:** 2026-11-25  
 **Platform:** Android (Jetpack Compose)  
 **Paradigm:** Local-First / Local AI dengan Internet Fallback Opt-In  
 
